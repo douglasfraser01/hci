@@ -1,0 +1,1431 @@
+﻿,Functional Requirement Specification,,Physical Allocation Specification
+1,access control list - utilities,,acl 
+2,ACPICA tools for the development and debug of ACPI tables,,acpica-tools
+3,add and remove users and groups,,adduser
+4,default icon theme of GNOME,,adwaita-icon-theme
+5,lightweight database migration tool for SQLAlchemy,,alembic
+6,ALSA topology configuration files,,alsa-topology-conf
+7,ALSA Use Case Manager configuration files,,alsa-ucm-conf
+8,Processor microcode firmware for AMD CPUs,,amd64-microcode
+9,Apache HTTP Server,,apache2
+10,Apache HTTP Server (modules and other binary files),,apache2-bin
+11,Apache HTTP Server (common files),,apache2-data
+12,Apache HTTP Server (utility programs for web servers),,apache2-utils
+13,user-space parser utility for AppArmor,,apparmor
+14,commandline package manager,,apt
+15,package management related utility programs,,apt-utils
+16,ARP table administration,,arptables
+17,Assistive Technology Service Provider Interface (dbus core),,at-spi2-core
+18,utilities for manipulating filesystem extended attributes,,attr
+19,Set of lenses needed by libaugeas0 to parse config files,,augeas-lenses
+20,automatic configure script builder,,autoconf
+21,Tool for generating GNU Standards-compliant Makefiles,,automake
+22,tool for setting up gettext infrastructure in a source package,,autopoint
+23,"Update infrastructure for config.{guess,sub} files",,autotools-dev
+24,Avahi mDNS/DNS-SD daemon,,avahi-daemon
+25,"Avahi browsing, publishing and discovery utilities",,avahi-utils
+26,Debian base system miscellaneous files,,base-files
+27,Debian base system master password and group files,,base-passwd
+28,GNU Bourne Again SHell,,bash
+29,programmable completion for the bash shell,,bash-completion
+30,Clients provided with BIND 9,,bind9-dnsutils
+31,DNS Lookup Utility,,bind9-host
+32,Shared Libraries used by BIND 9,,bind9-libs:amd64
+33,"GNU assembler, linker and binary utilities",,binutils
+34,"Common files for the GNU assembler, linker and binary utilities",,binutils-common:amd64
+35,"GNU binary utilities, for x86-64-linux-gnu target",,binutils-x86-64-linux-gnu
+36,tools for BPF Compiler Collection (BCC),,bpfcc-tools
+37,high-level tracing language for Linux eBPF,,bpftrace
+38,simple mail user agent,,bsd-mailx
+39,extra utilities from 4.4BSD-Lite,,bsdextrautils
+40,basic utilities from 4.4BSD-Lite,,bsdutils
+41,Informational list of build-essential packages,,build-essential
+42,Tiny utilities for small and embedded systems,,busybox
+43,high-quality block-sorting file compressor - utilities,,bzip2
+44,Common CA certificates,,ca-certificates
+45,automatically configure HTTPS using Let&apos;s Encrypt,,certbot
+46,Common Internet File System utilities,,cifs-utils
+47,statistics collection and monitoring daemon,,collectd
+48,statistics collection and monitoring daemon (core system),,collectd-core
+49,Program to modify the conntrack tables,,conntrack
+50,console font and keymap setup program,,console-setup
+51,Linux specific part of console-setup,,console-setup-linux
+52,"tool for service discovery, monitoring and configuration",,consul
+53,K8s container plugins package,,container-plugins
+54,An open and reliable container runtime,,containerd.io
+55,GNU core utilities,,coreutils
+56,GNU cpio -- a program to manage archives of files,,cpio
+57,GNU C preprocessor (cpp),,cpp
+58,GNU C preprocessor,,cpp-10
+59,tools to help evaluate certain CPU (or BIOS) features,,cpu-checker
+60,tool to dump x86 CPUID information about the CPU(s),,cpuid
+61,"kernel debugging utility, allowing gdb like syntax",,crash
+62,process scheduling daemon,,cron
+63,disk encryption support - startup scripts,,cryptsetup
+64,disk encryption support - command line tools,,cryptsetup-bin
+65,disk encryption support - initramfs integration,,cryptsetup-initramfs
+66,transitional dummy package for cryptsetup,,cryptsetup-run
+67,command line tool for transferring data with URL syntax,,curl
+68,Cxgbtool package,,cxgbtool
+69,POSIX-compliant shell,,dash
+70,simple interprocess messaging system (daemon and utilities),,dbus
+71,simple interprocess messaging system (systemd --user integration),,dbus-user-session
+72,simple configuration storage system - GSettings back-end,,dconf-gsettings-backend:amd64
+73,simple configuration storage system - D-Bus service,,dconf-service
+74,Command-line tools to process Debian package information,,dctrl-tools
+75,Debian configuration management system,,debconf
+76,full internationalization support for debconf,,debconf-i18n
+77,helper programs for debian/rules,,debhelper
+78,GnuPG archive keys of the Debian archive,,debian-archive-keyring
+79,GnuPG keys of Debian Developers and Maintainers,,debian-keyring
+80,Miscellaneous utilities specific to Debian,,debianutils
+81,scripts to make the life of a Debian Package maintainer easier,,devscripts
+82,debhelper add-on to call autoreconf and clean up after the build,,dh-autoreconf
+83,tool that converts source archives into Debian package source,,dh-make
+84,file non-deterministic information stripper — Debhelper add-on,,dh-strip-nondeterminism
+85,produces graph of changes introduced by a diff file,,diffstat
+86,File comparison utilities,,diffutils
+87,GNU privacy guard - network certificate management service,,dirmngr
+88,information about the distributions&apos; releases (data files),,distro-info-data
+89,Dynamic Kernel Module Support Framework,,dkms
+90,Linux Kernel Device Mapper event daemon,,dmeventd
+91,SMBIOS/DMI table decoder,,dmidecode
+92,Linux Kernel Device Mapper userspace library,,dmsetup
+93,DNS root data including root zone and DNSSEC key,,dns-root-data
+94,Small caching DNS proxy and DHCP/TFTP server,,dnsmasq-base
+95,Transitional package for bind9-dnsutils,,dnsutils
+96,Docker: the open-source application container engine,,docker-ce
+97,Docker CLI: the open-source application container engine,,docker-ce-cli
+98,Rootless support for Docker.,,docker-ce-rootless-extras
+99,"Punctual, lightweight development environments using Docker",,docker-compose
+100,Docker scan cli plugin.,,docker-scan-plugin
+101,text processing system for reStructuredText - common data,,docutils-common
+102,utilities for making and checking MS-DOS FAT filesystems,,dosfstools
+103,Debian package management system,,dpkg
+104,Debian package development tools,,dpkg-dev
+105,Debian package upload tool,,dput
+106,DWARF compression tool,,dwz
+107,ext2/ext3/ext4 file system utilities,,e2fsprogs
+108,Simple shell based CA utility,,easy-rsa
+109,Ethernet bridge frame table administration,,ebtables
+110,Interact with the EFI Boot Manager,,efibootmgr
+111,ejects CDs and operates CD-Changers under Linux,,eject
+112,Circumvent Debian package dependencies,,equivs
+113,display or change Ethernet device settings,,ethtool
+114,support files for all Exim MTA (v4) packages,,exim4-base
+115,configuration for the Exim MTA (v4),,exim4-config
+116,lightweight Exim MTA (v4) daemon,,exim4-daemon-light
+117,tool for simulating superuser privileges,,fakeroot
+118,collection of partitioning utilities,,fdisk
+119,Recognize the type of data in a file using &quot;magic&quot; numbers,,file
+120,"utilities for finding files--find, xargs",,findutils
+121,flexible I/O tester,,fio
+122,Binary firmware for AMD/ATI graphics chips,,firmware-amd-graphics
+123,Binary firmware for Broadcom NetXtremeII,,firmware-bnx2
+124,Binary firmware for Broadcom NetXtreme II 10Gb,,firmware-bnx2x
+125,Binary firmware for Cavium Ethernet adapters,,firmware-cavium
+126,Binary firmware for various drivers in the Linux kernel (metapackage),,firmware-linux
+127,Binary firmware for various drivers in the Linux kernel,,firmware-linux-free
+128,Binary firmware for various drivers in the Linux kernel (metapackage),,firmware-linux-nonfree
+129,Binary firmware for various drivers in the Linux kernel,,firmware-misc-nonfree
+130,Binary firmware for Myri-10G Ethernet adapters,,firmware-myricom
+131,Binary firmware for Netronome network adapters,,firmware-netronome
+132,Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series),,firmware-netxen
+133,Binary firmware for QLogic HBAs,,firmware-qlogic
+134,Binary firmware for Realtek wired/wifi/BT adapters,,firmware-realtek
+135,generic font configuration library - support binaries,,fontconfig
+136,generic font configuration library - configuration,,fontconfig-config
+137,Vera font family derivate with additional characters,,fonts-dejavu-core
+138,GNU implementation of the IPMI protocol - common files,,freeipmi-common
+139,Filesystem in Userspace,,fuse
+140,Filesystem in Userspace (3.x version),,fuse3
+141,GNU C++ compiler,,g++
+142,GNU C++ compiler,,g++-10
+143,"GNU awk, a pattern scanning and processing language",,gawk
+144,GNU C compiler,,gcc
+145,GNU C compiler,,gcc-10
+146,"GCC, the GNU Compiler Collection (base package)",,gcc-10-base:amd64
+147,"GCC, the GNU Compiler Collection (base package)",,gcc-9-base:amd64
+148,GNU Debugger,,gdb
+149,GPT fdisk text-mode partitioning tool,,gdisk
+150,IP lookup command line tools that use the GeoIP library (country database),,geoip-database
+151,GNU Internationalization utilities,,gettext
+152,GNU Internationalization utilities for the base system,,gettext-base
+153,"Introspection data for GLib, GObject, Gio and GModule",,gir1.2-glib-2.0:amd64
+154,"fast, scalable, distributed revision control system",,git
+155,"fast, scalable, distributed revision control system (manual pages)",,git-man
+156,network-related giomodules for GLib - data files,,glib-networking-common
+157,network-related giomodules for GLib - D-Bus services,,glib-networking-services
+158,network-related giomodules for GLib,,glib-networking:amd64
+159,clustered file-system (client package),,glusterfs-client
+160,GlusterFS common libraries and translator modules,,glusterfs-common
+161,clustered file-system (server package),,glusterfs-server
+162,allows the selection of MESA as GLX provider,,glx-alternative-mesa
+163,allows the selection of NVIDIA as GLX provider,,glx-alternative-nvidia
+164,prepare for using accelerated GLX implementations from GPU vendors,,glx-diversions
+165,GNU privacy guard - a free PGP replacement,,gnupg
+166,GNU privacy guard - localization files,,gnupg-l10n
+167,GNU privacy guard - utility programs,,gnupg-utils
+168,GNU Privacy Guard -- minimalist public key operations,,gpg
+169,GNU privacy guard - cryptographic agent,,gpg-agent
+170,GNU privacy guard - Web Key Service client,,gpg-wks-client
+171,GNU privacy guard - Web Key Service server,,gpg-wks-server
+172,GNU privacy guard - core configuration utilities,,gpgconf
+173,GNU privacy guard - S/MIME version,,gpgsm
+174,GNU privacy guard - signature verification tool,,gpgv
+175,"GNU grep, egrep and fgrep",,grep
+176,GNU troff text-formatting system (base system components),,groff-base
+177,GRand Unified Bootloader (common files),,grub-common
+178,GRUB Bin,,grub-efi-amd64-bin
+179,GRUB Signed,,grub-efi-amd64-signed
+180,"GRand Unified Bootloader, version 2 (PC/BIOS modules)",,grub-pc-bin
+181,GRand Unified Bootloader (common files for version 2),,grub2-common
+182,GSettings desktop-wide schemas,,gsettings-desktop-schemas
+183,icon theme caching utility,,gtk-update-icon-cache
+184,GNU compression utilities,,gzip
+185,fast and reliable load balancing reverse proxy,,haproxy
+186,tune hard disk parameters for high performance,,hdparm
+187,The package manager for Kubernetes,,helm
+188,default fallback theme for FreeDesktop.org icon themes,,hicolor-icon-theme
+189,utility to set/show the host name or domain name,,hostname
+190,interactive processes viewer,,htop
+191,User space provider drivers for libibverbs,,ibverbs-providers:amd64
+192,OUI and IAB listings,,ieee-data
+193,configure network interfaces for parallel routing (bonding),,ifenslave
+194,InterFace STATistics Monitoring,,ifstat
+195,high level tools to configure network interfaces,,ifupdown
+196,Internet automated Dynamic DNS client,,inadyn
+197,metapackage ensuring an init system is installed,,init
+198,helper tools for all init systems,,init-system-helpers
+199,generic modular initramfs generator (automation),,initramfs-tools
+200,generic modular initramfs generator (core tools),,initramfs-tools-core
+201,Intel cache monitoring and allocation technology config tool,,intel-cmt-cat
+202,Processor microcode firmware for Intel CPUs,,intel-microcode
+203,Processor Counter Monitor (PCM),,intel-pcm
+204,Help i18n of RFC822 compliant config files,,intltool-debian
+205,Internet Protocol bandwidth measuring tool,,iperf3
+206,utility for configuring and managing Intel Optane DC persistent memory modules,,ipmctl
+207,utility for IPMI control with kernel driver or LAN interface (daemon),,ipmitool
+208,networking and traffic control tools,,iproute2
+209,administration tool for kernel IP sets,,ipset
+210,administration tools for packet filtering and NAT,,iptables
+211,Tools to test the reachability of network hosts,,iputils-ping
+212,Linux Virtual Server support programs,,ipvsadm
+213,PXE boot firmware - ROM images for qemu,,ipxe-qemu
+214,DHCP client for automatically obtaining an IP address,,isc-dhcp-client
+215,common manpages relevant to all of the isc-dhcp packages,,isc-dhcp-common
+216,iSCSI user space software for SCST,,iscsi-scst
+217,"ISO language, territory, currency, script codes and their translations",,iso-codes
+218,Intel processor microcode tool,,iucode-tool
+219,Base support for JavaScript library packages,,javascript-common
+220,lightweight and flexible command-line JSON processor,,jq
+221,K3s package,,k3s
+222,Linux console font and keytable utilities,,kbd
+223,scripts and tools for automating kdump (Linux crash dumps),,kdump-tools
+224,Failover and monitoring daemon for LVS clusters,,keepalived
+225,tools to support fast kexec reboots,,kexec-tools
+226,system-wide keyboard preferences,,keyboard-configuration
+227,Linux Key Management Utilities,,keyutils
+228,small utilities built with klibc for early boot,,klibc-utils
+229,tools for managing Linux kernel modules,,kmod
+230,zfs kernel module(s) for 5.15.79+(TritonPlatform),,kmod-zfs-5.15.79+(TritonPlatform)
+231,Configuration files for Kerberos Version 5,,krb5-config
+232,basic programs to authenticate using MIT Kerberos,,krb5-user
+233,Kube-router Package,,kube-router
+234,OpenLDAP utilities,,ldap-utils
+235,pager program similar to more,,less
+236,GCC support library (32 bit Version),,lib32gcc-s1
+237,GNU Standard C++ Library v3 (32 bit Version),,lib32stdc++6
+238,extensions to the C++ standard library,,libabsl20200923:amd64
+239,access control list - shared library,,libacl1:amd64
+240,Linux kernel AIO access library - shared library,,libaio1:amd64
+241,module to find differences between files,,libalgorithm-diff-perl
+242,module to find differences between files (XS accelerated),,libalgorithm-diff-xs-perl
+243,Perl module for three-way merge of textual data,,libalgorithm-merge-perl
+244,Perl module to provide aliases of class names,,libaliased-perl
+245,multiuser module for Apache,,libapache2-mpm-itk
+246,changehat AppArmor library,,libapparmor1:amd64
+247,Apache Portable Runtime Library,,libapr1:amd64
+248,Apache Portable Runtime Utility Library - SQLite3 Driver,,libaprutil1-dbd-sqlite3:amd64
+249,Apache Portable Runtime Utility Library - LDAP Driver,,libaprutil1-ldap:amd64
+250,Apache Portable Runtime Utility Library,,libaprutil1:amd64
+251,Perl interface to libapt-pkg,,libapt-pkg-perl
+252,package management runtime library,,libapt-pkg6.0:amd64
+253,module for manipulations of cpio archives,,libarchive-cpio-perl
+254,Perl module for manipulation of ZIP archives,,libarchive-zip-perl
+255,Multi-format archive and compression library (shared library),,libarchive13:amd64
+256,memory-hard hashing function - runtime library,,libargon2-1:amd64
+257,Handles arrays of scalars or objects using integer ranges as index,,libarray-intspan-perl
+258,AddressSanitizer -- a fast memory error detector,,libasan6:amd64
+259,libasound2-data,,libasound2-data
+260,shared library for ALSA applications,,libasound2:amd64
+261,IPC library for the GnuPG components,,libassuan0:amd64
+262,Asynchronous name service query library,,libasyncns0:amd64
+263,ATA S.M.A.R.T. reading and parsing library,,libatasmart4:amd64
+264,AT-SPI 2 toolkit bridge - shared library,,libatk-bridge2.0-0:amd64
+265,ATK accessibility toolkit,,libatk1.0-0:amd64
+266,Common files for the ATK accessibility toolkit,,libatk1.0-data
+267,support library providing __atomic built-in functions,,libatomic1:amd64
+268,Assistive Technology Service Provider Interface - shared library,,libatspi2.0-0:amd64
+269,extended attribute handling - shared library,,libattr1:amd64
+270,Dynamic library for security auditing - common files,,libaudit-common
+271,Dynamic library for security auditing,,libaudit1:amd64
+272,Augeas configuration editing library and API,,libaugeas0:amd64
+273,Authen::SASL - SASL Authentication framework,,libauthen-sasl-perl
+274,Avahi client library,,libavahi-client3:amd64
+275,Avahi common data files,,libavahi-common-data:amd64
+276,Avahi common library,,libavahi-common3:amd64
+277,Avahi&apos;s embeddable mDNS/DNS-SD library,,libavahi-core7:amd64
+278,module for executing code after a scope finished compilation,,libb-hooks-endofscope-perl
+279,Perl wrapper for OP check callbacks,,libb-hooks-op-check-perl
+280,Babeltrace conversion libraries,,libbabeltrace1:amd64
+281,GNU binary utilities (private shared library),,libbinutils:amd64
+282,"Basic Linear Algebra Reference implementations, shared library",,libblas3:amd64
+283,block device ID library,,libblkid1:amd64
+284,Boost.Iostreams Library,,libboost-iostreams1.74.0:amd64
+285,regular expression library for C++,,libboost-regex1.74.0:amd64
+286,portable C++ multi-threading,,libboost-thread1.74.0:amd64
+287,eBPF helper library (shared library),,libbpf0:amd64
+288,shared library for BPF Compiler Collection (BCC),,libbpfcc
+289,braille display access via BRLTTY - shared library,,libbrlapi0.8:amd64
+290,library implementing brotli encoder and decoder (shared libraries),,libbrotli1:amd64
+291,utility functions from BSD systems - shared library,,libbsd0:amd64
+292,Library to parse and generate BSON documents - runtime files,,libbson-1.0-0
+293,high-quality block-sorting file compressor library - runtime,,libbz2-1.0:amd64
+294,asynchronous name resolver,,libc-ares2:amd64
+295,GNU C Library: Binaries,,libc-bin
+296,GNU C Library: Development binaries,,libc-dev-bin
+297,GNU C Library: Development tools,,libc-devtools
+298,GNU C Library: detached debugging symbols,,libc6-dbg:amd64
+299,GNU C Library: Development Libraries and Header Files,,libc6-dev:amd64
+300,GNU C Library: 32-bit shared libraries for ,,libc6-i386
+301,GNU C Library: Shared libraries,,libc6:amd64
+302,Virtual Common Access Card (CAC) Emulator (runtime library),,libcacard0:amd64
+303,Cairo 2D vector graphics library (GObject library),,libcairo-gobject2:amd64
+304,Cairo 2D vector graphics library,,libcairo2:amd64
+305,An alternate POSIX capabilities library,,libcap-ng0:amd64
+306,POSIX 1003.1e capabilities (utilities),,libcap2-bin
+307,POSIX 1003.1e capabilities (library),,libcap2:amd64
+308,lightweight multi-architecture disassembly framework - library,,libcapstone4:amd64
+309,module to capture STDOUT and STDERR,,libcapture-tiny-perl
+310,library for parsing and generating CBOR (RFC 7049),,libcbor0:amd64
+311,GCC cc1 plugin for GDB,,libcc1-0:amd64
+312,PC/SC driver for USB CCID smart card readers,,libccid
+313,C++ interface to the Clang library,,libclang-cpp11
+314,C interface to the Clang library,,libclang1-11
+315,Perl module to create accessors to class data,,libclass-data-inheritable-perl
+316,Perl module that provides information about classes,,libclass-inspector-perl
+317,Perl module providing method modifiers,,libclass-method-modifiers-perl
+318,Perl module providing fast XS accessors,,libclass-xsaccessor-perl
+319,module for recursively copying Perl datatypes,,libclone-perl
+320,system service to manage device colour profiles -- runtime,,libcolord2:amd64
+321,common error description library,,libcom-err2:amd64
+322,module that implements some sane defaults for Perl programs,,libcommon-sense-perl
+323,Read/Write .ini style files with as little code as possible,,libconfig-tiny-perl
+324,Common files for libConfuse,,libconfuse-common
+325,Library for parsing configuration files,,libconfuse2:amd64
+326,"facility for creating read-only scalars, arrays, and hashes",,libconst-fast-perl
+327,module for creating context-sensitive return values,,libcontextual-return-perl
+328,Perl5 module for extracting data from macintosh BinHex files,,libconvert-binhex-perl
+329,module for fast and correct serialising to JSON,,libcpanel-json-xs-perl
+330,CPU frequency and voltage scaling tools for Linux (libraries),,libcpupower1
+331,libcrypt development files,,libcrypt-dev:amd64
+332,libcrypt shared library,,libcrypt1:amd64
+333,disk encryption support - shared library,,libcryptsetup12:amd64
+334,"Compact C Type Format library (runtime, no BFD dependency)",,libctf-nobfd0:amd64
+335,"Compact C Type Format library (runtime, BFD dependency)",,libctf0:amd64
+336,NVIDIA CUDA Driver Library,,libcuda1:amd64
+337,Common UNIX Printing System(tm) - Core library,,libcups2:amd64
+338,easy-to-use client-side URL transfer library (GnuTLS flavour),,libcurl3-gnutls:amd64
+339,easy-to-use client-side URL transfer library (OpenSSL flavour),,libcurl4:amd64
+340,utility library for managing Compute Express Link devices,,libcxl1:amd64
+341,lightweight C library for daemons - runtime library,,libdaemon0:amd64
+342,DPath is like XPath but for Perl data structures,,libdata-dpath-perl
+343,Perl module to help dump data structures,,libdata-dump-perl
+344,MessagePack serializing/deserializing,,libdata-messagepack-perl
+345,module to parse and validate simple name/value option pairs,,libdata-optlist-perl
+346,perl domain name validation functions,,libdata-validate-domain-perl
+347,Double-array trie library,,libdatrie1:amd64
+348,Utility library for managing the device DAX subsystem,,libdaxctl1:amd64
+349,Berkeley v5.3 Database Libraries [runtime],,libdb5.3:amd64
+350,DB Independent Abstraction Layer for C -- shared library,,libdbi1:amd64
+351,simple interprocess messaging system (library),,libdbus-1-3:amd64
+352,simple configuration storage system - runtime library,,libdconf1:amd64
+353,Debian Configuration Management System (C-implementation library),,libdebconfclient0:amd64
+354,debhelper perl modules,,libdebhelper-perl
+355,library to interact with debuginfod (development files),,libdebuginfod1:amd64
+356,"fast, whole-buffer DEFLATE-based compression and decompression",,libdeflate0:amd64
+357,custom op checking attached to subroutines,,libdevel-callchecker-perl
+358,Perl extension for finding the memory usage of Perl variables,,libdevel-size-perl
+359,Perl module containing stack trace and related objects,,libdevel-stacktrace-perl
+360,Linux Kernel Device Mapper event support library,,libdevmapper-event1.02.1:amd64
+361,Linux Kernel Device Mapper userspace library,,libdevmapper1.02.1:amd64
+362,information about distributions&apos; releases (Perl module),,libdistro-info-perl
+363,Exported DNS Shared Library,,libdns-export1110
+364,Dpkg perl modules,,libdpkg-perl
+365,Userspace interface to amdgpu-specific kernel DRM services -- runtime,,libdrm-amdgpu1:amd64
+366,Userspace interface to kernel DRM services -- common files,,libdrm-common
+367,Userspace interface to intel-specific kernel DRM services -- runtime,,libdrm-intel1:amd64
+368,Userspace interface to nouveau-specific kernel DRM services -- runtime,,libdrm-nouveau2:amd64
+369,Userspace interface to radeon-specific kernel DRM services -- runtime,,libdrm-radeon1:amd64
+370,Userspace interface to kernel DRM services -- runtime,,libdrm2:amd64
+371,library that provides access to the DWARF debug information,,libdw1:amd64
+372,deconstructed dynamic C library loading,,libdynaloader-functions-perl
+373,BSD editline and history libraries,,libedit2:amd64
+374,Library to manage UEFI variables,,libefiboot1:amd64
+375,Library to manage UEFI variables,,libefivar1:amd64
+376,library to read and write ELF files,,libelf1:amd64
+377,Perl library for RFC 5322 address/group parsing and formatting,,libemail-address-xs-perl
+378,utility to determine the locale encoding,,libencode-locale-perl
+379,OpenGL function pointer management library,,libepoxy0:amd64
+380,Perl module for error/exception handling in an OO-ish way,,liberror-perl
+381,LibESMTP SMTP client library,,libesmtp6
+382,Helper functions for handling strings (lib),,libestr0:amd64
+383,Asynchronous event notification library,,libevent-2.1-7:amd64
+384,Asynchronous event notification library (core),,libevent-core-2.1-7:amd64
+385,Asynchronous event notification library (pthreads),,libevent-pthreads-2.1-7:amd64
+386,module that allows you to declare real exception classes in Perl,,libexception-class-perl
+387,C library for commands execution,,libexecs0:amd64
+388,XML parsing C library - runtime library,,libexpat1:amd64
+389,tiny exporter similar to Sub::Exporter,,libexporter-tiny-perl
+390,ext2/ext3/ext4 file system libraries,,libext2fs2:amd64
+391,tool for simulating superuser privileges - shared libraries,,libfakeroot:amd64
+392,fast json library for C,,libfastjson4:amd64
+393,FastCGI bridge from CGI,,libfcgi-bin
+394,helper module for FastCGI,,libfcgi-perl:amd64
+395,shared library of FastCGI,,libfcgi0ldbl:amd64
+396,fdisk partitioning library,,libfdisk1:amd64
+397,Flat Device Trees manipulation library,,libfdt1:amd64
+398,Foreign Function Interface library runtime,,libffi7:amd64
+399,library for generating and verifying FIDO 2.0 objects,,libfido2-1:amd64
+400,Perl module to use the freedesktop basedir specification,,libfile-basedir-perl
+401,more sensible way to change directories,,libfile-chdir-perl
+402,provide a sorted list of directory content,,libfile-dirlist-perl
+403,Perl module for file locking with fcntl(2),,libfile-fcntllock-perl
+404,module to search for files based on rules,,libfile-find-rule-perl
+405,Perl module for finding user directories across platforms,,libfile-homedir-perl
+406,module to parse directory listings,,libfile-listing-perl
+407,file non-deterministic information stripper — Perl module,,libfile-stripnondeterminism-perl
+408,Perl interface to touch-like functions,,libfile-touch-perl
+409,Perl module for searching paths for executable programs,,libfile-which-perl
+410,Free Lossless Audio Codec - runtime C library,,libflac8:amd64
+411,Perl interface to Adobe Font Metrics files,,libfont-afm-perl
+412,Perl module for TrueType font hacking,,libfont-ttf-perl
+413,generic font configuration library - runtime,,libfontconfig1:amd64
+414,GNU IPMI - libraries,,libfreeipmi17
+415,"FreeType 2 font engine, shared library files",,libfreetype6:amd64
+416,Free Implementation of the Unicode BiDi algorithm,,libfribidi0:amd64
+417,Frame Streams (fstrm) library,,libfstrm0:amd64
+418,Filesystem in Userspace (library),,libfuse2:amd64
+419,Filesystem in Userspace (library) (3.x version),,libfuse3-3:amd64
+420,generic buffer management API -- runtime,,libgbm1:amd64
+421,GCC support library (development files),,libgcc-10-dev:amd64
+422,GCC support library,,libgcc-s1:amd64
+423,LGPL Crypto library - runtime library,,libgcrypt20:amd64
+424,GD Graphics Library,,libgd3:amd64
+425,GNU dbm database routines (legacy support runtime version) ,,libgdbm-compat4:amd64
+426,GNU dbm database routines (runtime version) ,,libgdbm6:amd64
+427,GDK Pixbuf library,,libgdk-pixbuf-2.0-0:amd64
+428,GDK Pixbuf library (thumbnailer),,libgdk-pixbuf2.0-bin
+429,GDK Pixbuf library - data files,,libgdk-pixbuf2.0-common
+430,non-DNS IP-to-country resolver library,,libgeoip1:amd64
+431,module that handles command-line arguments with usage text,,libgetopt-long-descriptive-perl
+432,GlusterFS gfapi shared library,,libgfapi0:amd64
+433,GlusterFS gfchangelog shared library,,libgfchangelog0:amd64
+434,Runtime library for GNU Fortran applications,,libgfortran5:amd64
+435,GlusterFS libgfrpc shared library,,libgfrpc0:amd64
+436,GlusterFS libgfxdr shared library,,libgfxdr0:amd64
+437,Library for handling GObject introspection data (runtime library),,libgirepository-1.0-1:amd64
+438,Perl module to wrap git command-line interface,,libgit-wrapper-perl
+439,GitLab API v4 module and command-line client,,libgitlab-api-v4-perl
+440,free implementation of the OpenGL API -- DRI modules,,libgl1-mesa-dri:amd64
+441,Vendor neutral GL dispatch library -- legacy GL support,,libgl1:amd64
+442,free implementation of the GL API -- shared library,,libglapi-mesa:amd64
+443,GLib library of C routines,,libglib2.0-0:amd64
+444,Common files for GLib library,,libglib2.0-data
+445,GlusterFS libglusterd shared library,,libglusterd0:amd64
+446,GlusterFS shared library,,libglusterfs0:amd64
+447,Vendor neutral GL dispatch library,,libglvnd0:amd64
+448,free implementation of the OpenGL API -- GLX vendor library,,libglx-mesa0:amd64
+449,NVIDIA binary GLX library,,libglx-nvidia0:amd64
+450,Vendor neutral GL dispatch library -- GLX support,,libglx0:amd64
+451,Multiprecision arithmetic library,,libgmp10:amd64
+452,GNU TLS library - DANE security support,,libgnutls-dane0:amd64
+453,GNU TLS library - main runtime library,,libgnutls30:amd64
+454,GCC OpenMP (GOMP) support library,,libgomp1:amd64
+455,"libraries for CPU and heap analysis, plus an efficient thread-caching malloc",,libgoogle-perftools4:amd64
+456,GnuPG development runtime library,,libgpg-error0:amd64
+457,GPGME - GnuPG Made Easy (library),,libgpgme11:amd64
+458,General Purpose Mouse - shared library,,libgpm2:amd64
+459,Global Positioning System - library,,libgps28:amd64
+460,Font rendering engine for Complex Scripts -- library,,libgraphite2-3:amd64
+461,high performance general RPC framework,,libgrpc++1:amd64
+462,high performance general RPC framework,,libgrpc10:amd64
+463,MIT Kerberos runtime libraries - krb5 GSS-API Mechanism,,libgssapi-krb5-2:amd64
+464,MIT Kerberos runtime libraries - GSS enabled ONCRPC,,libgssrpc4:amd64
+465,GStreamer libraries from the &quot;base&quot; set,,libgstreamer-plugins-base1.0-0:amd64
+466,Core GStreamer libraries and elements,,libgstreamer1.0-0:amd64
+467,GTK graphical user interface library,,libgtk-3-0:amd64
+468,programs for the GTK graphical user interface library,,libgtk-3-bin
+469,common files for the GTK graphical user interface library,,libgtk-3-common
+470,OpenType text shaping engine (shared library),,libharfbuzz0b:amd64
+471,Perl module implementing a lightweight field hash,,libhash-fieldhash-perl
+472,minimalistic C client library for Redis,,libhiredis0.14:amd64
+473,low level cryptographic library (public-key cryptos),,libhogweed6:amd64
+474,module that represents an HTML form element,,libhtml-form-perl
+475,module for transforming HTML into various formats,,libhtml-format-perl
+476,module to encode and decode character entities defined in HTML5,,libhtml-html5-entities-perl
+477,collection of modules that parse HTML text documents,,libhtml-parser-perl
+478,data tables pertaining to HTML,,libhtml-tagset-perl
+479,Perl module to represent and create HTML syntax trees,,libhtml-tree-perl
+480,HTTP cookie jars,,libhttp-cookies-perl
+481,simple http server class,,libhttp-daemon-perl
+482,module of date conversion routines,,libhttp-date-perl
+483,perl interface to HTTP style messages,,libhttp-message-perl
+484,implementation of content negotiation,,libhttp-negotiate-perl
+485,module to add post_multipart method to HTTP::Tiny,,libhttp-tiny-multipart-perl
+486,userspace I2C programming library,,libi2c0:amd64
+487,Library for direct userspace use of RDMA (InfiniBand/iWARP),,libibverbs1:amd64
+488,International Components for Unicode,,libicu67:amd64
+489,"GNU Libidn library, implementation of IETF IDN specifications",,libidn11:amd64
+490,Internationalized domain names (IDNA2008/TR46) library,,libidn2-0:amd64
+491,palette quantization library,,libimagequant0:amd64
+492,module for importing packages into other packages,,libimport-into-perl
+493,simple .INI file parser,,libinih1:amd64
+494,runtime library for the iniParser INI file reader/writer,,libiniparser1:amd64
+495,open an HTML file with automatic charset detection,,libio-html-perl
+496,"Perl module to prompt for input, read it, clean it, return it",,libio-prompter-perl
+497,Perl module for pseudo tty IO,,libio-pty-perl
+498,set of modules for non-blocking I/O,,libio-sessiondata-perl
+499,Perl module implementing object oriented interface to SSL sockets,,libio-socket-ssl-perl
+500,Emulate IO::File interface for in-core strings,,libio-string-perl
+501,modules for I/O on in-core objects (strings/arrays),,libio-stringy-perl
+502,netfilter libip4tc library,,libip4tc2:amd64
+503,netfilter libip6tc library,,libip6tc2:amd64
+504,Perl module for running processes,,libipc-run-perl
+505,run a subprocess with input/output redirection,,libipc-run3-perl
+506,"Perl module to run commands simply, with detailed diagnostics",,libipc-system-simple-perl
+507,Internet Protocol bandwidth measuring tool (runtime files),,libiperf0:amd64
+508,library for managing Intel Optane DC persistent memory modules,,libipmctl4:amd64
+509,library for IP sets,,libipset13:amd64
+510,Intel Processor Trace Decoder Library,,libipt2
+511,Exported ISC Shared Library,,libisc-export1105:amd64
+512,manipulating sets and relations of integer points bounded by linear constraints,,libisl23:amd64
+513,Perl implementation of iterators,,libiterator-perl
+514,Useful functions for creating and manipulating iterator objects,,libiterator-util-perl
+515,GNU Transactional Memory Library,,libitm1:amd64
+516,Asynchronous I/O readiness notification library,,libivykis0:amd64
+517,"C library for encoding, decoding and manipulating JSON data",,libjansson4:amd64
+518,JBIGkit libraries,,libjbig0:amd64
+519,libjpeg-turbo JPEG runtime library,,libjpeg62-turbo:amd64
+520,lightweight and flexible command-line JSON processor - shared library,,libjq1:amd64
+521,JavaScript library for dynamic web applications,,libjs-jquery
+522,JavaScript support for Sphinx documentation,,libjs-sphinxdoc
+523,JavaScript&apos;s functional programming helper library,,libjs-underscore
+524,JSON manipulation library - shared library,,libjson-c5:amd64
+525,GLib JSON manipulation library,,libjson-glib-1.0-0:amd64
+526,GLib JSON manipulation library (common files),,libjson-glib-1.0-common
+527,interface to the best available JSON module,,libjson-maybexs-perl
+528,module for manipulating JSON-formatted data,,libjson-perl
+529,module for manipulating JSON-formatted data (C/XS-accelerated),,libjson-xs-perl
+530,MIT Kerberos runtime libraries - Crypto Library,,libk5crypto3:amd64
+531,MIT Kerberos runtime libraries - Administration Clients,,libkadm5clnt-mit12:amd64
+532,MIT Kerberos runtime libraries - KDC and Admin Server,,libkadm5srv-mit12:amd64
+533,MIT Kerberos runtime libraries - Kerberos database,,libkdb5-10:amd64
+534,Linux Key Management Utilities (library),,libkeyutils1:amd64
+535,minimal libc subset for use with initramfs,,libklibc:amd64
+536,libkmod shared library,,libkmod2:amd64
+537,MIT Kerberos runtime libraries,,libkrb5-3:amd64
+538,MIT Kerberos runtime libraries - Support library,,libkrb5support0:amd64
+539,X.509 and CMS support library,,libksba8:amd64
+540,Library of linear algebra routines 3 - shared version,,liblapack3:amd64
+541,Little CMS 2 color management library,,liblcms2-2:amd64
+542,OpenLDAP libraries,,libldap-2.4-2:amd64
+543,OpenLDAP common files for libraries,,libldap-common
+544,Perl module for comparing elements of two or more lists,,liblist-compare-perl
+545,Perl module with additional list functions not found in List::Util,,liblist-moreutils-perl
+546,Perl module providing compiled List::MoreUtils functions,,liblist-moreutils-xs-perl
+547,module that provides the stuff missing in List::Util,,liblist-someutils-perl
+548,module providing XS implementation for List::SomeUtils,,liblist-someutils-xs-perl
+549,higher-order list utility functions,,liblist-utilsby-perl
+550,"Modular compiler and toolchain technologies, runtime library",,libllvm11:amd64
+551,Lightning Memory-Mapped Database shared library,,liblmdb0:amd64
+552,module using libc functions for internationalization in Perl,,liblocale-gettext-perl
+553,support binaries for and cli utilities based on liblockfile,,liblockfile-bin
+554,NFS-safe locking library,,liblockfile1:amd64
+555,"send logs to screen, with colors and some other features",,liblog-any-adapter-screen-perl
+556,Perl module to log messages safely and efficiently,,liblog-any-perl
+557,log normalizing library,,liblognorm5:amd64
+558,LeakSanitizer -- a memory leak detector (runtime),,liblsan0:amd64
+559,System independent dlopen wrapper for GNU libtool,,libltdl-dev:amd64
+560,System independent dlopen wrapper for GNU libtool,,libltdl7:amd64
+561,Shared library for the Lua interpreter version 5.3,,liblua5.3-0:amd64
+562,LVM2 command library,,liblvm2cmd2.03:amd64
+563,module to guess media type for a file or a URL,,liblwp-mediatypes-perl
+564,HTTPS driver for LWP::UserAgent,,liblwp-protocol-https-perl
+565,data compressor based on the LZMA algorithm (library),,liblz1:amd64
+566,Fast LZ compression algorithm library - runtime,,liblz4-1:amd64
+567,XZ-format compression library,,liblzma5:amd64
+568,data compression library,,liblzo2-2:amd64
+569,File type determination library using &quot;magic&quot; numbers (compiled magic file),,libmagic-mgc
+570,Recognize the type of data in a file using &quot;magic&quot; numbers - library,,libmagic1:amd64
+571,simple way to send email from a perl script,,libmail-sendmail-perl
+572,modules to manipulate email in perl programs,,libmailtools-perl
+573,MariaDB database client library,,libmariadb3:amd64
+574,implementation of the Markdown markup language in C (library),,libmarkdown2:amd64
+575,IP geolocation database library,,libmaxminddb0:amd64
+576,message digest functions from BSD systems - shared library,,libmd0:amd64
+577,C and C++ client library to the memcached server,,libmemcached11:amd64
+578,library implementing connection pooling for libmemcached,,libmemcachedutil2:amd64
+579,library embedding HTTP server functionality,,libmicrohttpd12:amd64
+580,Perl5 modules for MIME-compliant messages,,libmime-tools-perl
+581,minimalistic Netlink communication library,,libmnl0:amd64
+582,library for the Modbus protocol,,libmodbus5:amd64
+583,module for loading one of several alternate implementations of a module,,libmodule-implementation-perl
+584,Perl module for runtime module handling,,libmodule-runtime-perl
+585,MongoDB C client library - runtime files,,libmongoc-1.0-0
+586,client-side field level encryption library - runtime files,,libmongocrypt0:amd64
+587,Minimalist Object Orientation library (with Moose compatibility),,libmoo-perl
+588,easy aliasing of methods and attributes in Moo,,libmoox-aliases-perl
+589,simple lightweight record-like structures making sounds like cows,,libmoox-struct-perl
+590,MQTT version 5.0/3.1.1/3.1 client library,,libmosquitto1:amd64
+591,device mounting library,,libmount1:amd64
+592,lightweight object framework for Perl,,libmouse-perl
+593,multiple precision complex floating-point library,,libmpc3:amd64
+594,library for decimal floating point arithmetic (runtime library),,libmpdec3:amd64
+595,multiple precision floating-point computation,,libmpfr6:amd64
+596,library for Microsoft compression formats (shared library),,libmspack0:amd64
+597,module to remove imported symbols after compilation,,libnamespace-autoclean-perl
+598,module for keeping imports and functions out of the current namespace,,libnamespace-clean-perl
+599,shared libraries for terminal handling,,libncurses6:amd64
+600,shared libraries for terminal handling (wide character support),,libncursesw6:amd64
+601,Utility library for managing the libnvdimm subsystem,,libndctl6:amd64
+602,list of currently available Top-level Domains (TLDs),,libnet-domain-tld-perl
+603,module providing low-level HTTP connection client,,libnet-http-perl
+604,Perl module providing SSL support to Net::SMTP,,libnet-smtp-ssl-perl
+605,Perl module for Secure Sockets Layer (SSL),,libnet-ssleay-perl
+606,library for the construction and handling of network packets,,libnet1:amd64
+607,cross-platform network configuration library (runtime library),,libnetcf1:amd64
+608,Netfilter netlink-conntrack library,,libnetfilter-conntrack3:amd64
+609,low level cryptographic library (symmetric and one-way cryptos),,libnettle8:amd64
+610,Not Erik&apos;s Windowing Toolkit - text mode windowing with slang,,libnewt0.52:amd64
+611,Netfilter netlink library,,libnfnetlink0:amd64
+612,NFS idmapping library,,libnfsidmap2:amd64
+613,Netfilter nftables high level userspace API library,,libnftables1:amd64
+614,Netfilter nftables userspace API library,,libnftnl11:amd64
+615,library implementing HTTP/2 protocol (shared library),,libnghttp2-14:amd64
+616,GeoIP HTTP module for Nginx,,libnginx-mod-http-geoip
+617,HTTP image filter module for Nginx,,libnginx-mod-http-image-filter
+618,Upload progress system for Nginx,,libnginx-mod-http-uploadprogress
+619,XSLT Transformation module for Nginx,,libnginx-mod-http-xslt-filter
+620,Mail module for Nginx,,libnginx-mod-mail
+621,Stream module for Nginx,,libnginx-mod-stream
+622,GeoIP Stream module for Nginx,,libnginx-mod-stream-geoip
+623,library for dealing with netlink sockets,,libnl-3-200:amd64
+624,library for dealing with netlink sockets - generic netlink,,libnl-genl-3-200:amd64
+625,library for dealing with netlink sockets - route interface,,libnl-route-3-200:amd64
+626,sends desktop notifications to a notification daemon,,libnotify4:amd64
+627,replacement for GNU Pth using system threads,,libnpth0:amd64
+628,libnsl development files,,libnsl-dev:amd64
+629,Public client interface for NIS(YP) and NIS+,,libnsl2:amd64
+630,NetScape Portable Runtime Library,,libnspr4:amd64
+631,NSS module for using LDAP as a naming service,,libnss-ldapd:amd64
+632,NSS module for Multicast DNS name resolution,,libnss-mdns:amd64
+633,nss module to resolve hostnames for local container instances,,libnss-mymachines:amd64
+634,Network Security Service libraries,,libnss3:amd64
+635,read/write NTFS driver for FUSE (runtime library),,libntfs-3g883
+636,Libraries for controlling NUMA policy,,libnuma1:amd64
+637,module for performing numeric comparisons in Perl,,libnumber-compare-perl
+638,Perl extension to work with ranges of numbers,,libnumber-range-perl
+639,network UPS tools - scanner library,,libnutscan1:amd64
+640,NVIDIA CUDA Video Decoder runtime library,,libnvcuvid1:amd64
+641,NVIDIA binary OpenGL/GLX configuration library,,libnvidia-cfg1:amd64
+642,NVIDIA container runtime library (command-line tools),,libnvidia-container-tools
+643,NVIDIA container runtime library,,libnvidia-container1:amd64
+644,NVIDIA binary EGL core libraries,,libnvidia-eglcore:amd64
+645,NVENC Video Encoding runtime library,,libnvidia-encode1:amd64
+646,NVIDIA binary OpenGL/GLX core libraries,,libnvidia-glcore:amd64
+647,NVIDIA binary Vulkan Spir-V compiler library,,libnvidia-glvkspirv:amd64
+648,NVIDIA Management Library (NVML) runtime library,,libnvidia-ml1:amd64
+649,NVIDIA NVVM,,libnvidia-nvvm4:amd64
+650,NVIDIA PTX JIT Compiler,,libnvidia-ptxjitcompiler1:amd64
+651,NVIDIA binary Vulkan ray tracing (rtcore) library,,libnvidia-rtcore:amd64
+652,Solaris name-value library for Linux,,libnvpair3
+653,OATH Toolkit Liboath library,,liboath0:amd64
+654,unique identifier for any object,,libobject-id-perl
+655,Ogg bitstream library,,libogg0:amd64
+656,regular expressions library,,libonig5:amd64
+657,ARM CoreSight Trace decode library,,libopencsd0:amd64
+658,Intelligent Platform Management Interface - runtime,,libopenipmi0
+659,C/C++ library to generate ICMP ECHO_REQUESTs,,liboping0:amd64
+660,automated option processing library based on autogen,,libopts25:amd64
+661,Opus codec runtime library,,libopus0:amd64
+662,Library of Optimized Inner Loops Runtime Compiler,,liborc-0.4-0:amd64
+663,perl OSSP::UUID - OSSP uuid Perl Binding,,libossp-uuid-perl
+664,OSSP uuid ISO-C and C++ - shared library,,libossp-uuid16:amd64
+665,library for loading and coordinating access to PKCS#11 modules - runtime,,libp11-kit0:amd64
+666,module providing routines for manipulating stashes,,libpackage-stash-perl
+667,Perl module providing routines for manipulating stashes (XS version),,libpackage-stash-xs-perl
+668,PAM module for MIT Kerberos,,libpam-krb5:amd64
+669,PAM module for using LDAP as an authentication service,,libpam-ldapd:amd64
+670,Pluggable Authentication Modules for PAM - helper binaries,,libpam-modules-bin
+671,Pluggable Authentication Modules for PAM,,libpam-modules:amd64
+672,OATH Toolkit libpam_oath PAM module,,libpam-oath
+673,Runtime support for the PAM library,,libpam-runtime
+674,system and service manager - PAM module,,libpam-systemd:amd64
+675,Pluggable Authentication Modules library,,libpam0g:amd64
+676,Layout and rendering of internationalized text,,libpango-1.0-0:amd64
+677,Layout and rendering of internationalized text,,libpangocairo-1.0-0:amd64
+678,Layout and rendering of internationalized text,,libpangoft2-1.0-0:amd64
+679,library for handling paper characteristics (utilities),,libpaper-utils
+680,library for handling paper characteristics,,libpaper1:amd64
+681,Perl module for argument type classification,,libparams-classify-perl
+682,Perl extension for simple stand-alone param checking functions,,libparams-util-perl
+683,Perl module to validate parameters to Perl method/function calls,,libparams-validate-perl:amd64
+684,disk partition manipulator - shared library,,libparted2:amd64
+685,"iterative, recursive file finder",,libpath-iterator-rule-perl
+686,file path utility,,libpath-tiny-perl
+687,system interface for user-level packet capture,,libpcap0.8:amd64
+688,PCI utilities (shared library),,libpci3:amd64
+689,Generic PCI access library for X,,libpciaccess0:amd64
+690,New Perl Compatible Regular Expression Library- 8 bit runtime files,,libpcre2-8-0:amd64
+691,Old Perl 5 Compatible Regular Expression Library - runtime files,,libpcre3:amd64
+692,Middleware to access a smart card using PC/SC (library),,libpcsclite1:amd64
+693,shared Perl library,,libperl5.32:amd64
+694,module providing a PerlIO layer to gzip/gunzip,,libperlio-gzip-perl
+695,Unix process pipeline manipulation library,,libpipeline1:amd64
+696,pixel-manipulation library for X and cairo,,libpixman-1-0:amd64
+697,library that simplifies the interaction with PKCS#11,,libpkcs11-helper1:amd64
+698,"Persistent Memory low level support library, v1 runtime",,libpmem1:amd64
+699,Persistent Memory block array support library,,libpmemblk1:amd64
+700,PNG library - runtime (version 1.6),,libpng16-16:amd64
+701,module for including constants from POD,,libpod-constants-perl
+702,modules for parsing/translating POD format documents,,libpod-parser-perl
+703,PolicyKit Authentication Agent API,,libpolkit-agent-1-0:amd64
+704,PolicyKit Authorization API,,libpolkit-gobject-1-0:amd64
+705,lib for parsing cmdline parameters,,libpopt0:amd64
+706,PostgreSQL C client library,,libpq5:amd64
+707,Perl library for accessing process table information,,libproc-processtable-perl
+708,library for accessing process information from /proc,,libprocps8:amd64
+709,Protocol Buffers C shared library (protobuf-c),,libprotobuf-c1:amd64
+710,protocol buffers C++ library,,libprotobuf23:amd64
+711,automatic proxy configuration management library (shared),,libproxy1v5:amd64
+712,Library for Public Suffix List (shared libraries),,libpsl5:amd64
+713,PulseAudio client libraries,,libpulse0:amd64
+714,interactive high-level object-oriented language (Python2),,libpython2-stdlib:amd64
+715,Minimal subset of the Python language (version 2.7),,libpython2.7-minimal:amd64
+716,"Interactive high-level object-oriented language (standard library, version 2.7)",,libpython2.7-stdlib:amd64
+717,interactive high-level object-oriented language (default python3 version),,libpython3-stdlib:amd64
+718,Minimal subset of the Python language (version 3.9),,libpython3.9-minimal:amd64
+719,"Interactive high-level object-oriented language (standard library, version 3.9)",,libpython3.9-stdlib:amd64
+720,Shared Python runtime library (version 3.9),,libpython3.9:amd64
+721,C libraries for Qpid Proton,,libqpid-proton11
+722,GCC Quad-Precision Math Library,,libquadmath0:amd64
+723,AMQP client library written in C,,librabbitmq4:amd64
+724,RADOS distributed object store client library,,librados2
+725,RADOS block device client library,,librbd1
+726,library implementing the Apache Kafka protocol,,librdkafka1:amd64
+727,Library for managing RDMA connections,,librdmacm1:amd64
+728,RE2 regex engine,,libre-engine-re2-perl:amd64
+729,"efficient, principled regular expression library",,libre2-9:amd64
+730,"GNU readline and history libraries, run-time libraries",,libreadline8:amd64
+731,"facility for creating read-only scalars, arrays and hashes",,libreadonly-perl
+732,set of utility functions for checking references,,libref-util-perl
+733,XS implementation for Ref::Util,,libref-util-xs-perl
+734,regular expressions for legal licenses,,libregexp-pattern-license-perl
+735,convention/framework for modules that contain collection of regexes,,libregexp-pattern-perl
+736,REST service access library,,librest-0.7-0:amd64
+737,C language client library for the Riemann event stream processor,,libriemann-client0:amd64
+738,Perl module for minimalist role composition,,librole-tiny-perl
+739,time-series data storage and display system (runtime library),,librrd8:amd64
+740,SAX-based renderer library for SVG files (runtime),,librsvg2-2:amd64
+741,SAX-based renderer library for SVG files (extra runtime),,librsvg2-common:amd64
+742,Data Plane Development Kit (librte-eal runtime library),,librte-eal21:amd64
+743,Data Plane Development Kit (libethdev runtime library),,librte-ethdev21:amd64
+744,Data Plane Development Kit (librte-kvargs runtime library),,librte-kvargs21:amd64
+745,Data Plane Development Kit (librte-mbuf2 runtime library),,librte-mbuf21:amd64
+746,Data Plane Development Kit (librte-mempool runtime library),,librte-mempool21:amd64
+747,Data Plane Development Kit (librte-meter runtime library),,librte-meter21:amd64
+748,Data Plane Development Kit (librte-net runtime library),,librte-net21:amd64
+749,Data Plane Development Kit (librte-ring runtime library),,librte-ring21:amd64
+750,Data Plane Development Kit (librte-telemetry runtime library),,librte-telemetry21:amd64
+751,toolkit for RTMP streams (shared library),,librtmp1:amd64
+752,Cyrus SASL - authentication abstraction library,,libsasl2-2:amd64
+753,Cyrus SASL - pluggable authentication modules (DB),,libsasl2-modules-db:amd64
+754,Cyrus SASL - pluggable authentication modules (GSSAPI),,libsasl2-modules-gssapi-mit:amd64
+755,Cyrus SASL - pluggable authentication modules,,libsasl2-modules:amd64
+756,user-space access to Linux kernel SCTP - shared library,,libsctp1:amd64
+757,high level interface to Linux seccomp filter,,libseccomp2:amd64
+758,SELinux runtime shared libraries,,libselinux1:amd64
+759,Common files for SELinux policy management libraries,,libsemanage-common
+760,SELinux policy management library,,libsemanage1:amd64
+761,lm-sensors configuration files,,libsensors-config
+762,library to read temperature/voltage/fan sensors,,libsensors5:amd64
+763,SELinux library for manipulating binary security policies,,libsepol1:amd64
+764,"fast, compact, powerful binary deserialization module",,libsereal-decoder-perl
+765,"fast, compact, powerful binary serialization module",,libsereal-encoder-perl
+766,utilities for devices using the SCSI command set (shared libraries),,libsgutils2-2
+767,Library for handling page faults in a portable way,,libsigsegv2:amd64
+768,S-Lang programming library - runtime version,,libslang2:amd64
+769,General purpose TCP-IP emulator library,,libslirp0:amd64
+770,smart column output alignment library,,libsmartcols1:amd64
+771,fast compression/decompression library,,libsnappy1v5:amd64
+772,Library for reading/writing audio files,,libsndfile1:amd64
+773,"SNMP configuration script, MIBs and documentation",,libsnmp-base
+774,SNMP (Simple Network Management Protocol) library,,libsnmp40:amd64
+775,Perl implementation of a SOAP client and server,,libsoap-lite-perl
+776,"Network communication, cryptography and signaturing library",,libsodium23:amd64
+777,module to sort a list of values by a calculated key,,libsort-key-perl
+778,Perl module for sorting of revision (and similar) numbers,,libsort-versions-perl
+779,HTTP library implementation in C -- GNOME support library,,libsoup-gnome2.4-1:amd64
+780,HTTP library implementation in C -- Shared library,,libsoup2.4-1:amd64
+781,architecture-independent files for source highlighting library,,libsource-highlight-common
+782,source highlighting library,,libsource-highlight4v5
+783,Implements the server side of the SPICE protocol,,libspice-server1:amd64
+784,SQLite 3 shared library,,libsqlite3-0:amd64
+785,command-line interface parsing library,,libss2:amd64
+786,SSH2 client-side library,,libssh2-1:amd64
+787,Secure Sockets Layer toolkit - shared libraries,,libssl1.1:amd64
+788,GNU Standard C++ Library v3 (development files),,libstdc++-10-dev:amd64
+789,GNU Standard C++ Library v3,,libstdc++6:amd64
+790,Perl module to turn on strict and make all warnings fatal,,libstrictures-perl
+791,representation of text-based copyright statements,,libstring-copyright-perl
+792,module for manipulating escaped strings,,libstring-escape-perl
+793,module to quote strings for passing through the shell,,libstring-shellquote-perl
+794,sophisticated exporter for custom-built routines,,libsub-exporter-perl
+795,module for using Sub::Exporter only if needed,,libsub-exporter-progressive-perl
+796,module to retrieve names of code references,,libsub-identify-perl
+797,module for installing subroutines into packages easily,,libsub-install-perl
+798,module for assigning a new name to referenced sub,,libsub-name-perl
+799,Perl module used to temporarily override subroutines,,libsub-override-perl
+800,helper modules for subroutines,,libsub-quote-perl
+801,module to set CPU affinity for processes,,libsys-cpuaffinity-perl:amd64
+802,module tp determine the long (fully-qualified) hostname,,libsys-hostname-long-perl
+803,systemd utility library,,libsystemd0:amd64
+804,module for ensuring that a platform has weaken support,,libtask-weaken-perl
+805,Manage ASN.1 structures (runtime),,libtasn1-6:amd64
+806,efficient thread-caching malloc,,libtcmalloc-minimal4:amd64
+807,perl module for simple terminal control,,libterm-readkey-perl
+808,get display widths of characters on the terminal,,libtext-charwidth-perl
+809,Perl module for matching globbing patterns against text,,libtext-glob-perl
+810,module to convert between character sets in Perl,,libtext-iconv-perl
+811,XS implementation of the Levenshtein edit distance,,libtext-levenshteinxs-perl
+812,"Perl interface to Discount, an implementation of Markdown",,libtext-markdown-discount-perl:amd64
+813,internationalized substitute of Text::Wrap,,libtext-wrapi18n-perl
+814,scalable template engine for Perl 5 (C/XS accelerated),,libtext-xslate-perl
+815,Data files for Thai language support library,,libthai-data
+816,Thai language support library,,libthai0:amd64
+817,Tag Image File Format (TIFF) library,,libtiff5:amd64
+818,module for rounded or exact English expression of durations,,libtime-duration-perl
+819,Perl C/XS module representing date and time of day with UTC offset,,libtime-moment-perl
+820,collection of modules to manipulate date/time information,,libtimedate-perl
+821,shared low-level terminfo library for terminal handling,,libtinfo6:amd64
+822,transport-independent RPC library - common files,,libtirpc-common
+823,transport-independent RPC library - development files,,libtirpc-dev:amd64
+824,transport-independent RPC library,,libtirpc3:amd64
+825,Generic library support script,,libtool
+826,module providing minimalistic try/catch,,libtry-tiny-perl
+827,ThreadSanitizer -- a Valgrind-based detector of data races (runtime),,libtsan0:amd64
+828,"tiny, yet Moo(se)-compatible type constraint",,libtype-tiny-perl
+829,boost for some of Type::Tiny&apos;s built-in type constraints,,libtype-tiny-xs-perl
+830,module providing simple data types for common serialisation formats,,libtypes-serialiser-perl
+831,UBSan -- undefined behaviour sanitizer (runtime),,libubsan1:amd64
+832,universal charset detection library - shared library,,libuchardet0:amd64
+833,libudev shared library,,libudev1:amd64
+834,library implementing DNS resolution and validation,,libunbound8:amd64
+835,encoding and decoding of UTF-8 encoding form,,libunicode-utf8-perl
+836,Unicode string library for C,,libunistring2:amd64
+837,library to determine the call-chain of a program - runtime,,libunwind8:amd64
+838,network UPS tools - client library,,libupsclient4:amd64
+839,userspace RCU (read-copy-update) library,,liburcu6:amd64
+840,module to manipulate and access URI strings,,liburi-perl
+841,Linux kernel io_uring access library - shared library,,liburing1:amd64
+842,userspace USB programming library,,libusb-0.1-4:amd64
+843,userspace USB programming library,,libusb-1.0-0:amd64
+844,Parser for the usbredir protocol (runtime),,libusbredirparser1:amd64
+845,privileged helper for utmp/wtmp updates (runtime),,libutempter0:amd64
+846,Universally Unique ID library,,libuuid1:amd64
+847,Solaris userland utility library for Linux,,libuutil3
+848,asynchronous event notification library - runtime library,,libuv1:amd64
+849,module to associate user-defined magic to variables from Perl,,libvariable-magic-perl
+850,shared libraries for Varnish,,libvarnishapi2:amd64
+851,Virtual Distributed Ethernet - Plug library,,libvdeplug2
+852,Video Decode and Presentation API for Unix (libraries),,libvdpau1:amd64
+853,virtual GPU for KVM virtualization,,libvirglrenderer1:amd64
+854,Programs for the libvirt library,,libvirt-clients
+855,Virtualization daemon,,libvirt-daemon
+856,Libvirt daemon configuration files (default network),,libvirt-daemon-config-network
+857,Libvirt daemon configuration files (default network filters),,libvirt-daemon-config-nwfilter
+858,Virtualization daemon LXC connection driver,,libvirt-daemon-driver-lxc
+859,Virtualization daemon QEMU connection driver,,libvirt-daemon-driver-qemu
+860,Virtualization daemon VirtualBox connection driver,,libvirt-daemon-driver-vbox
+861,Virtualization daemon Xen connection driver,,libvirt-daemon-driver-xen
+862,Libvirt daemon configuration files,,libvirt-daemon-system
+863,Libvirt daemon configuration files (systemd),,libvirt-daemon-system-systemd
+864,library for interfacing with different virtualization systems,,libvirt0:amd64
+865,decoder library for Vorbis General Audio Compression Codec,,libvorbis0a:amd64
+866,encoder library for Vorbis General Audio Compression Codec,,libvorbisenc2:amd64
+867,Terminal emulator widget for GTK+ 3.0 - runtime files,,libvte-2.91-0:amd64
+868,Terminal emulator widget for GTK+ 3.0 - common files,,libvte-2.91-common
+869,Vulkan loader library,,libvulkan1:amd64
+870,generalisation of wantarray,,libwant-perl
+871,wayland compositor infrastructure - client library,,libwayland-client0:amd64
+872,wayland compositor infrastructure - cursor library,,libwayland-cursor0:amd64
+873,wayland compositor infrastructure - EGL library,,libwayland-egl1:amd64
+874,wayland compositor infrastructure - server library,,libwayland-server0:amd64
+875,Lossy compression of digital photographic images.,,libwebp6:amd64
+876,Lossy compression of digital photographic images.,,libwebpdemux2:amd64
+877,Lossy compression of digital photographic images.,,libwebpmux3:amd64
+878,Wietse Venema&apos;s TCP wrappers library,,libwrap0:amd64
+879,simple and consistent interface to the world-wide web,,libwww-perl
+880,database of robots.txt-derived permissions,,libwww-robotrules-perl
+881,X11 client-side library,,libx11-6:amd64
+882,X11 client-side library,,libx11-data
+883,Xlib/XCB interface library,,libx11-xcb1:amd64
+884,X11 authorisation library,,libxau6:amd64
+885,"X C Binding, dri2 extension",,libxcb-dri2-0:amd64
+886,"X C Binding, dri3 extension",,libxcb-dri3-0:amd64
+887,"X C Binding, glx extension",,libxcb-glx0:amd64
+888,"X C Binding, present extension",,libxcb-present0:amd64
+889,"X C Binding, randr extension",,libxcb-randr0:amd64
+890,"X C Binding, render extension",,libxcb-render0:amd64
+891,"X C Binding, shm extension",,libxcb-shm0:amd64
+892,"X C Binding, sync extension",,libxcb-sync1:amd64
+893,"X C Binding, xfixes extension",,libxcb-xfixes0:amd64
+894,X C Binding,,libxcb1:amd64
+895,X11 Composite extension library,,libxcomposite1:amd64
+896,X cursor management library,,libxcursor1:amd64
+897,X11 damaged region extension library,,libxdamage1:amd64
+898,Xdelta runtime library,,libxdelta2
+899,X11 Display Manager Control Protocol library,,libxdmcp6:amd64
+900,Xen runtime library - libxencall,,libxencall1:amd64
+901,Xen runtime libraries - libxendevicemodel,,libxendevicemodel1:amd64
+902,Xen runtime libraries - libxenevtchn,,libxenevtchn1:amd64
+903,Xen runtime libraries - libxenforeignmemory,,libxenforeignmemory1:amd64
+904,Xen runtime libraries - libxengnttab,,libxengnttab1:amd64
+905,Xen runtime library - libxenhypfs,,libxenhypfs1:amd64
+906,"Xen runtime libraries - miscellaneous, versioned ABI",,libxenmisc4.14:amd64
+907,Xen runtime libraries - libxenstore,,libxenstore3.0:amd64
+908,Xen runtime libraries - libxentoolcore,,libxentoolcore1:amd64
+909,Xen runtime libraries - libxentoollog,,libxentoollog1:amd64
+910,X11 miscellaneous extension library,,libxext6:amd64
+911,X11 miscellaneous &apos;fixes&apos; extension library,,libxfixes3:amd64
+912,X11 Input extension library,,libxi6:amd64
+913,X11 Xinerama extension library,,libxinerama1:amd64
+914,library interface to the XKB compiler - shared library,,libxkbcommon0:amd64
+915,Perl interface to the libxml2 library,,libxml-libxml-perl
+916,Perl module for supporting simple generic namespaces,,libxml-namespacesupport-perl
+917,Perl module for parsing XML files,,libxml-parser-perl:amd64
+918,base class for SAX drivers and filters,,libxml-sax-base-perl
+919,Perl module for a SAX2 driver for Expat (XML::Parser),,libxml-sax-expat-perl
+920,Perl module for using and building Perl SAX2 XML processors,,libxml-sax-perl
+921,XML utilities,,libxml2-utils
+922,GNOME XML library,,libxml2:amd64
+923,client and server implementation of the XML-RPC protocol,,libxmlrpc-lite-perl
+924,Openssl engine for the XML security library,,libxmlsec1-openssl:amd64
+925,XML security library,,libxmlsec1:amd64
+926,X11 miscellaneous micro-utility library,,libxmuu1:amd64
+927,X11 pixmap library,,libxpm4:amd64
+928,X11 RandR extension library,,libxrandr2:amd64
+929,X Rendering Extension client library,,libxrender1:amd64
+930,X shared memory fences - shared library,,libxshmfence1:amd64
+931,XSLT 1.0 processing library - runtime library,,libxslt1.1:amd64
+932,netfilter xtables library,,libxtables12:amd64
+933,X11 XFree86 video mode extension library,,libxxf86vm1:amd64
+934,shared library for xxhash,,libxxhash0:amd64
+935,Yet Another JSON Library,,libyajl2:amd64
+936,Fast YAML 1.1 parser and emitter library,,libyaml-0-2:amd64
+937,"Perl interface to libyaml, a YAML implementation",,libyaml-libyaml-perl
+938,theorem prover from Microsoft Research - runtime libraries,,libz3-4:amd64
+939,Native ZFS filesystem library for Linux,,libzfs5
+940,Native ZFS pool library for Linux,,libzpool5
+941,fast lossless compression algorithm,,libzstd1:amd64
+942,simple license checker for source files,,licensecheck
+943,Debian package checker,,lintian
+944,Linux image base package,,linux-base
+945,CPU power management tools for Linux,,linux-cpupower
+946,Linux kernel headers for 5.15.79+(TritonPlatform) on ,,linux-headers-(TritonPlatform)-amd64
+947,"Linux kernel, version 5.15.79+(TritonPlatform)",,linux-image-(TritonPlatform)-amd64
+948,Performance analysis tools for Linux (meta-package),,linux-perf
+949,Performance analysis tools for Linux 5.10,,linux-perf-5.10
+950,Linux support headers for userspace development,,linux-(TritonPlatform)-libc-dev:amd64
+951,utilities to read temperature/voltage/fan sensors,,lm-sensors
+952,system login tools,,login
+953,Log rotation utility,,logrotate
+954,save the output of a command in a log file,,logsave
+955,Linux Standard Base init script functionality,,lsb-base
+956,Linux Standard Base version reporting utility,,lsb-release
+957,information about hardware configuration,,lshw
+958,utility to list open files,,lsof
+959,Linux Logical Volume Manager,,lvm2
+960,Fast LZ compression algorithm library - tool,,lz4
+961,lossless data compressor based on the LZMA algorithm,,lzip
+962,fast compression program,,lzop
+963,macro processing language,,m4
+964,"Debian&apos;s mailcap system, and support programs",,mailcap
+965,utility for directing compilation,,make
+966,VMcore extraction tool,,makedumpfile
+967,tools for reading manual pages,,man-db
+968,Manual pages about using a GNU/Linux system,,manpages
+969,Manual pages about using GNU/Linux for development,,manpages-dev
+970,MariaDB common configuration files,,mariadb-common
+971,Pattern scanning and text processing language,,mawk
+972,Midnight Commander - a powerful file manager,,mc
+973,Midnight Commander - a powerful file manager -- data files,,mc-data
+974,Tool to administer Linux MD arrays (software RAID),,mdadm
+975,Mediated device management utility for Linux,,mdevctl
+976,List of standard media types and their usual file extension,,media-types
+977,Mesa Vulkan graphics drivers,,mesa-vulkan-drivers:amd64
+978,Middleware daemon for (TritonPlatform),,middlewared
+979,Legacy migration (up to latest release of 11.3),,migrate113
+980,Legacy migration for django south,,migrate93
+981,transitional package,,mime-support
+982,High Performance Object Storage,,minio
+983,tools for manipulating machine owner keys,,mokutil
+984,tools for mounting and manipulating filesystems,,mount
+985,Utilities for modifying MSRs from userspace,,msr-tools
+986,Multus CNI package,,multus-cni
+987,"MySQL database common files, e.g. /etc/mysql/my.cnf",,mysql-common
+988,"small, friendly text editor inspired by Pico",,nano
+989,basic terminal type definitions,,ncurses-base
+990,terminal-related programs and man pages,,ncurses-bin
+991,additional terminal type definitions,,ncurses-term
+992,Utility for managing the nvdimm subsystem,,ndctl
+993,NET-3 networking toolkit,,net-tools
+994,Basic TCP/IP networking system,,netbase
+995,TCP/IP swiss army knife,,netcat-openbsd
+996,NFS support files common to client and server,,nfs-common
+997,support for NFS kernel server,,nfs-kernel-server
+998,Commandline and GUI ACL utilities for the NFSv4 client,,nfs4-acl-tools
+999,Commandline and GUI ACL utilities for the NFSv4 client,,nfs4xdr-acl-tools
+1000,Program to control packet filtering rules by Netfilter project,,nftables
+1001,"small, powerful, scalable web/proxy server",,nginx
+1002,"small, powerful, scalable web/proxy server - common files",,nginx-common
+1003,nginx web/proxy server (standard version),,nginx-core
+1004,daemon for displaying passive pop-up notifications,,notification-daemon
+1005,HTML5 VNC client - daemon and programs,,novnc
+1006,GNU C Library: Name Service Cache Daemon,,nscd
+1007,daemon for NSS and PAM lookups using LDAP,,nslcd
+1008,utilities for querying LDAP via nslcd,,nslcd-utils
+1009,read/write NTFS driver for FUSE,,ntfs-3g
+1010,Network Time Protocol daemon and utility programs,,ntp
+1011,network UPS tools - metapackage,,nut
+1012,network UPS tools - clients,,nut-client
+1013,network UPS tools - core system,,nut-server
+1014,network UPS tools - SNMP driver,,nut-snmp
+1015,allows the selection of NVIDIA as GLX provider,,nvidia-alternative
+1016,NVIDIA container runtime,,nvidia-container-runtime
+1017,NVIDIA Container toolkit,,nvidia-container-toolkit
+1018,NVIDIA Container Toolkit Base,,nvidia-container-toolkit-base
+1019,cleanup after driver installation with the nvidia-installer,,nvidia-installer-cleanup
+1020,NVIDIA binary kernel module support files,,nvidia-kernel-common
+1021,NVIDIA binary kernel module DKMS source,,nvidia-kernel-dkms
+1022,NVIDIA binary kernel module support files,,nvidia-kernel-support
+1023,check for NVIDIA GPUs requiring a legacy driver,,nvidia-legacy-check
+1024,utility to load NVIDIA kernel modules and create device nodes,,nvidia-modprobe
+1025,daemon to maintain persistent software state in the NVIDIA driver,,nvidia-persistenced
+1026,NVIDIA System Management Interface,,nvidia-smi
+1027,NVIDIA binary graphics driver support files,,nvidia-support
+1028,NVIDIA Vulkan driver - common files,,nvidia-vulkan-common
+1029,NVIDIA Vulkan installable client driver (ICD),,nvidia-vulkan-icd:amd64
+1030,userspace tooling to control NVMe drives,,nvme-cli
+1031,Open VMware Tools for virtual machines hosted on VMware (CLI),,open-vm-tools
+1032,Intelligent Platform Management Interface (for servers),,openipmi
+1033,management framework for resolv.conf,,openresolv
+1034,Smart card utilities with support for PKCS#15 compatible cards,,opensc
+1035,Smart card utilities with support for PKCS#15 compatible cards,,opensc-pkcs11:amd64
+1036,OpenSeaChest package,,openseachest
+1037,"secure shell (SSH) client, for secure access to remote machines",,openssh-client
+1038,"secure shell (SSH) server, for secure access from remote machines",,openssh-server
+1039,"secure shell (SSH) sftp server module, for SFTP access from remote machines",,openssh-sftp-server
+1040,Secure Sockets Layer toolkit - cryptographic utility,,openssl
+1041,virtual private network daemon,,openvpn
+1042,OpenZFS 2.1 for (TritonPlatform) SCALE,,openzfs
+1043,utility to detect other OSes on a set of drives,,os-prober
+1044,UEFI firmware for 64-bit x86 virtual machines,,ovmf
+1045,disk partition manipulator,,parted
+1046,change and administer password and group data,,passwd
+1047,Apply a diff file to an original,,patch
+1048,Utilities to work with patches,,patchutils
+1049,parallel bzip2 implementation,,pbzip2
+1050,PCI ID Repository,,pci.ids
+1051,PCI utilities,,pciutils
+1052,Middleware to access a smart card using PC/SC (daemon side),,pcscd
+1053,Larry Wall&apos;s Practical Extraction and Report Language,,perl
+1054,minimal Perl system,,perl-base
+1055,Core Perl modules,,perl-modules-5.32
+1056,version compatibility baseline for Perl OpenSSL packages,,perl-openssl-defaults:amd64
+1057,Parallel Implementation of GZip,,pigz
+1058,curses-based PIN or pass-phrase entry dialog for GnuPG,,pinentry-curses
+1059,create a directed graph of processes and pipes,,pipexec
+1060,"parallel, indexing XZ compressor/decompressor",,pixz
+1061,"parallel, lossless data compressor based on the LZMA algorithm",,plzip
+1062,tool for managing templates file translations with gettext,,po-debconf
+1063,framework for managing administrative policies and privileges,,policykit-1
+1064,common utils for power management,,powermgmt-base
+1065,diagnose issues with power consumption and management,,powertop
+1066,regenerate pristine tarballs,,pristine-tar
+1067,/proc file system utilities,,procps
+1068,"Versatile, virtual-hosting FTP daemon - binaries",,proftpd-core
+1069,"Versatile, virtual-hosting FTP daemon - documentation",,proftpd-doc
+1070,"Versatile, virtual-hosting FTP daemon - TLS/SSL/SFTP modules",,proftpd-mod-crypto
+1071,utilities that use the proc file system,,psmisc
+1072,"accurate, machine-readable list of domain name suffixes",,publicsuffix
+1073,Shell pipeline element to meter data passing through,,pv
+1074,Python interface to libapt-pkg (locales),,python-apt-common
+1075,asyncio-basedclientandserverimplementationofSSHv2protocol(doc),,python-asyncssh-doc
+1076,tools for internationalizing Python applications - locale data files,,python-babel-localedata
+1077,symlinks /usr/bin/python to python3,,python-is-python3
+1078,interactive high-level object-oriented language (Python2 version),,python2
+1079,minimal subset of the Python2 language,,python2-minimal
+1080,Interactive high-level object-oriented language (version 2.7),,python2.7
+1081,Minimal subset of the Python language (version 2.7),,python2.7-minimal
+1082,interactive high-level object-oriented language (default python3 version),,python3
+1083,ACME protocol library for Python 3,,python3-acme
+1084,Asynchronous Docker Python client - Python 3.x,,python3-aiodocker
+1085,http client/server for asyncio,,python3-aiohttp
+1086,WSGI adapter for aiohttp (Python 3),,python3-aiohttp-wsgi
+1087,Synchronization primitive RWLock for asyncio (Python 3),,python3-aiorwlock
+1088,Configurable sidebar-enabled Sphinx theme (Python 3),,python3-alabaster
+1089,lightweight database migration tool for SQLAlchemy - Python module,,python3-alembic
+1090,package depending on all supported Python 3 runtime versions,,python3-all
+1091,Python 3 interface to libapt-pkg,,python3-apt
+1092,timeout context manager for asyncio programs in Python,,python3-async-timeout
+1093,asyncio-basedclientandserverimplementationofSSHv2protocol,,python3-asyncssh
+1094,Attributes without boilerplate (Python 3),,python3-attr
+1095,AWS Signature Version 4 Signing Process (Python 3),,python3-aws-requests-auth
+1096,tools for internationalizing Python applications - Python 3.x,,python3-babel
+1097,password hashing library for Python 3,,python3-bcrypt
+1098,Bidirectional map data structures and related functionality,,python3-bidict
+1099,"fast, simple object-to-object and broadcast signaling library",,python3-blinker
+1100,Python interface to Amazon&apos;s Web Services - Python 3.x,,python3-boto3
+1101,"Low-level, data-driven core of boto 3 (Python 3)",,python3-botocore
+1102,Python 3 wrappers for BPF Compiler Collection (BCC),,python3-bpfcc
+1103,error-tolerant HTML parser for Python 3,,python3-bs4
+1104,Provides cached-property for decorating methods in classes (Python 3),,python3-cached-property
+1105,extensible memoizing collections and decorators for Python 3,,python3-cachetools
+1106,Validate (TritonPlatform) Catalogs,,python3-catalog-validation
+1107,main library for certbot,,python3-certbot
+1108,Cloudflare DNS plugin for Certbot,,python3-certbot-dns-cloudflare
+1109,DigitalOcean DNS plugin for Certbot,,python3-certbot-dns-digitalocean
+1110,Google DNS plugin for Certbot,,python3-certbot-dns-google
+1111,OVH DNS plugin for Certbot,,python3-certbot-dns-ovh
+1112,root certificates for validating SSL certs and verifying TLS hosts (python3),,python3-certifi
+1113,Foreign Function Interface for Python 3 calling C code,,python3-cffi
+1114,Foreign Function Interface for Python 3 calling C code - runtime,,python3-cffi-backend:amd64
+1115,universal character encoding detector for Python3,,python3-chardet
+1116,Wrapper around optparse for command line utilities - Python 3.x,,python3-click
+1117,Python module to interface with Cloudflare&apos;s v4 API,,python3-cloudflare
+1118,Cross-platform colored terminal text in Python - Python 3.x,,python3-colorama
+1119,colored terminal output for Python 3&apos;s logging module,,python3-coloredlogs
+1120,replacement for argparse with config files and environment variables (Python 3),,python3-configargparse
+1121,simple but powerful config file reader and writer for Python 3,,python3-configobj
+1122,provides iteration for datetime object with cron like format - Python 3.x,,python3-croniter
+1123,Python library exposing cryptographic recipes and primitives (Python 3),,python3-cryptography
+1124,powerful extensions to the standard Python 3 datetime module,,python3-dateutil
+1125,simple interprocess messaging system (Python 3 interface),,python3-dbus
+1126,Python 3 modules to work with Debian-related data formats,,python3-debian
+1127,collection of patterns to collect technical debt - Python 3.x,,python3-debtcollector
+1128,Python bindings for the DigitalOcean API (Python 3),,python3-digitalocean
+1129,Linux OS platform information API,,python3-distro
+1130,distutils package for Python 3.x,,python3-distutils
+1131,DNS toolkit for Python 3,,python3-dnspython
+1132,Python 3 wrapper to access docker.io&apos;s control socket,,python3-docker
+1133,Pseudo-tty handler for docker Python client (Python 3.x),,python3-dockerpty
+1134,command-line interface description language (Python3),,python3-docopt
+1135,text processing system for reStructuredText (implemented in Python 3),,python3-docutils
+1136,"programmatically open an editor, capture the result - Python 3.x",,python3-editor
+1137,provides useful locks - Python 3.x,,python3-fasteners
+1138,Universal Feed Parser for Python 3,,python3-feedparser
+1139,Python daemon for automatically managing,,python3-fenced
+1140,micro web framework based on Werkzeug and Jinja2 - Python 3.x,,python3-flask
+1141,Clean single-source support for Python 3 and 2 - Python 3.x,,python3-future
+1142,Python 3 bindings for gobject-introspection libraries,,python3-gi
+1143,Python library to interact with Git repositories - Python 3.x,,python3-git
+1144,pure-Python git object database (Python 3),,python3-gitdb
+1145,Python glfs bindings,,python3-glfs
+1146,Python bindings for GlusterFS CLI and Metrics collection,,python3-glustercli
+1147,Google-Api-Core for Python,,python3-google-api-core
+1148,Google-Auth for Python,,python3-google-auth
+1149,Google Authentication Library: httplib2 transport,,python3-google-auth-httplib2
+1150,Google-Api-Python-Client for Python,,python3-googleapi
+1151,Googleapis-Common-Protos for Python,,python3-googleapis-common-protos
+1152,Python interface to the GPGME GnuPG encryption library (Python 3),,python3-gpg
+1153,Python module for converting HTML to Markdown text (Python3 version),,python3-html2text
+1154,HTML parser/tokenizer based on the WHATWG HTML5 specification,,python3-html5lib
+1155,comprehensive HTTP client library written for Python3,,python3-httplib2
+1156,Python3 library to make user friendly text interfaces,,python3-humanfriendly
+1157,Python Humanize library (Python 3),,python3-humanize
+1158,Python 3 extension wrapping the ICU C++ API,,python3-icu
+1159,Python IDNA2008 (RFC 5891) handling (Python 3),,python3-idna
+1160,Pure Python implementation for detecting IP addresses,,python3-ifaddr
+1161,Python 3 module for getting image size from png/jpeg/jpeg2000/gif file,,python3-imagesize
+1162,library to access the metadata for a Python package - Python 3.x,,python3-importlib-metadata
+1163,Client for InfluxDB - Python 3.x,,python3-influxdb
+1164,"Python module for working with IP addresses, both IPv4 and IPv6",,python3-ipaddr
+1165,Python module to parse ISO 8601 dates - Python 3.x,,python3-iso8601
+1166,ISO 8601 date/time/duration parser and formatter (Python 3 module),,python3-isodate
+1167,Various helpers to pass trusted data to untrusted environment - Python 3.x,,python3-itsdangerous
+1168,small but fast and easy to use stand-alone template engine,,python3-jinja2
+1169,JSON Matching Expressions (Python 3),,python3-jmespath
+1170,JOSE implementation for Python 3.x,,python3-josepy
+1171,Python library for serializing object graphs into JSON (Python 3),,python3-jsonpickle
+1172,An(other) implementation of JSON Schema (Draft 3 and 4) - Python 3.x,,python3-jsonschema
+1173,Python3 implementation of JOSE Web standards,,python3-jwcrypto
+1174,Python 3 implementation of JSON Web Token,,python3-jwt
+1175,Kubernetes Python client - Python 3.x,,python3-kubernetes
+1176,LDAP interface module for Python3,,python3-ldap:amd64
+1177,Manipulate DNS records on various DNS providers (Python 3),,python3-lexicon
+1178,Interactive high-level object-oriented language (lib2to3),,python3-lib2to3
+1179,libvirt Python 3 bindings,,python3-libvirt
+1180,Python libzfs bindings,,python3-libzfs
+1181,License module for (TritonPlatform),,python3-licenselib
+1182,file locking library for Python — Python 3 library,,python3-lockfile
+1183,pythonic binding for the libxml2 and libxslt libraries,,python3-lxml:amd64
+1184,python3 interface to the libmagic file type identification library,,python3-magic
+1185,fast and lightweight templating for the Python 3 platform,,python3-mako
+1186,text-to-HTML conversion library/tool (Python 3 version),,python3-markdown
+1187,Fast and complete implementation of Markdown in Python3,,python3-markdown2
+1188,HTML/XHTML/XML string library for Python 3,,python3-markupsafe
+1189,(TritonPlatform) Command Line Interface,,python3-midcli
+1190,minimal subset of the Python language (default python3 version),,python3-minimal
+1191,Mocking and Testing Library (Python3 version),,python3-mock
+1192,implementation of time.monotonic() - Python 3.x,,python3-monotonic
+1193,"library with routines for operating on iterables, beyond itertools (Python 3)",,python3-more-itertools
+1194,Python 3 implementation of MessagePack format,,python3-msgpack
+1195,multidict implementation (Python library),,python3-multidict
+1196,Python bindings to libsodium (Python 3),,python3-nacl
+1197,Natural sorting for Python (Python3),,python3-natsort
+1198,manipulation of various common network address notations (Python 3),,python3-netaddr
+1199,portable network interface information - Python 3.x,,python3-netifaces
+1200,Allows one to write net-snmp subagents in Python,,python3-netsnmpagent
+1201,test discovery and running for Python3 unittest,,python3-nose
+1202,HTML5 VNC client - Python 3.x libraries,,python3-novnc
+1203,Python NTP library (Python 3.x),,python3-ntplib
+1204,Fast array facility to the Python 3 language,,python3-numpy
+1205,Python bindings for various nvme ioctls on linux,,python3-nvme
+1206,OAuth 2.0 client library - Python 3.x,,python3-oauth2client
+1207,"generic, spec-compliant implementation of OAuth for Python3",,python3-oauthlib
+1208,Python module to read/write MS OLE2 files,,python3-olefile
+1209,Official Python OneDrive SDK for interfacing with OneDrive APIs,,python3-onedrivesdk
+1210,Python 3 wrapper around the OpenSSL library,,python3-openssl
+1211,Common code for Openstack Projects (configuration API) - Python 3.x,,python3-oslo.config
+1212,WSGI context helpers for OpenStack - Python 3.x,,python3-oslo.context
+1213,Oslo Internationalization Utilities - Python 3.x,,python3-oslo.i18n
+1214,OpenStack logging configuration library - Python 3.x,,python3-oslo.log
+1215,"utilities for serialization , especially JSON - Python 3.x",,python3-oslo.serialization
+1216,set of utility functions for OpenStack - Python 3.x,,python3-oslo.utils
+1217,core utilities for python3 packages,,python3-packaging
+1218,Paramiko for Python,,python3-paramiko
+1219,Python 3 module to parse human-readable date/time expressions,,python3-parsedatetime
+1220,comprehensive password hashing framework,,python3-passlib
+1221,inject useful and sensible default behaviors into setuptools - Python 3.x,,python3-pbr
+1222,Python Imaging Library (Python3),,python3-pil:amd64
+1223,Package Discovery and Resource Access using pkg_resources,,python3-pkg-resources
+1224,Lex and Yacc implementation for Python3,,python3-ply
+1225,Python interface to the prctl() syscall (Python 3),,python3-prctl
+1226,Prompt-Toolkit for Python,,python3-prompt-toolkit
+1227,Protobuf for Python,,python3-protobuf
+1228,module providing convenience functions for managing processes (Python3),,python3-psutil
+1229,library to represent tabular data in visually appealing ASCII tables (Python3),,python3-ptable
+1230,ASN.1 library for Python (Python 3 module),,python3-pyasn1
+1231,Collection of protocols modules written in ASN.1 language (Python 3),,python3-pyasn1-modules
+1232,C parser in Python 3,,python3-pycparser
+1233,cryptographic Python library (Python 3),,python3-pycryptodome
+1234,"Debugger used in PyDev, PyCharm and VSCode Python",,python3-pydevd
+1235,syntax highlighting package written in Python 3,,python3-pygments
+1236,simple Linux inotify Python bindings,,python3-pyinotify
+1237,KMIP v1.1 library - Python 3.x,,python3-pykmip
+1238,Python One Time Password Library,,python3-pyotp
+1239,Pyparsing for Python,,python3-pyparsing
+1240,Pyroute2 for Python,,python3-pyroute2
+1241,persistent/functional/immutable data structures for Python,,python3-pyrsistent:amd64
+1242,SNMP SMI/MIB Parser,,python3-pysmi
+1243,Python SNMP library for agents and managers (Python 3 module),,python3-pysnmp4
+1244,systemd binding for Python,,python3-pystemd
+1245,Python3 bindings for libudev,,python3-pyudev
+1246,VMware vSphere Python SDK - Python 3.x,,python3-pyvmomi
+1247,Remote-Pdb for Python,,python3-remote-pdb
+1248,"elegant and simple HTTP library for Python3, built for human beings",,python3-requests
+1249,File transport adapter for Requests - Python 3.X,,python3-requests-file
+1250,module providing OAuthlib auth support for requests (Python 3),,python3-requests-oauthlib
+1251,Utility belt for advanced users of python3-requests,,python3-requests-toolbelt
+1252,parser and generator of RFC 3339-compliant timestamps (Python 3),,python3-rfc3339
+1253,validating URI references per RFC 3986 - Python 3.x,,python3-rfc3986
+1254,module for generating/analyzing Roman numerals for Python 3,,python3-roman
+1255,Pure-Python RSA implementation (Python 3),,python3-rsa
+1256,Amazon S3 Transfer Manager for Python3,,python3-s3transfer
+1257,implementing the SemVer scheme - Python 3.x,,python3-semantic-version
+1258,New Python SDK for Sentry.io (Python 3),,python3-sentry-sdk
+1259,Setproctitle implementation for Python 3,,python3-setproctitle:amd64
+1260,Python3 Distutils Enhancements,,python3-setuptools
+1261,Python bindings for linux SG_IO ioctl,,python3-sgio
+1262,"simple, fast, extensible JSON encoder/decoder for Python 3.x",,python3-simplejson
+1263,Python 2 and 3 compatibility library (Python 3 interface),,python3-six
+1264,pure Python implementation of a sliding window memory map manager,,python3-smmap
+1265,Pure Python Snowball stemming library,,python3-snowballstemmer
+1266,Python client for SoftLayer API (Python 3),,python3-softlayer
+1267,modern CSS selector implementation for BeautifulSoup (Python 3),,python3-soupsieve
+1268,documentation generator for Python projects,,python3-sphinx
+1269,SQL toolkit and Object Relational Mapper for Python 3,,python3-sqlalchemy
+1270,SQL toolkit and Object Relational Mapper for Python3 - C extension,,python3-sqlalchemy-ext:amd64
+1271,non-validating SQL parser for Python 3,,python3-sqlparse
+1272,manage dynamic plugins for Python applications - python3,,python3-stevedore
+1273,Python 3 bindings for systemd,,python3-systemd
+1274,Module for creating simple ASCII tables — python3,,python3-texttable
+1275,Python library for separating TLDs,,python3-tldextract
+1276,BackportedandExperimentalTypeHintsforPython,,python3-typing-extensions
+1277,Python3 version of the Olson timezone database,,python3-tz
+1278,tzinfo object for the local timezone,,python3-tzlocal
+1279,Unified diff Python parsing/metadata extraction library (Python 3),,python3-unidiff
+1280,Uritemplate for Python,,python3-uritemplate
+1281,HTTP library with thread-safe connection pooling for Python3,,python3-urllib3
+1282,determine printable width of a string on a terminal (Python 3),,python3-wcwidth
+1283,Python implementation of the WHATWG Encoding standard,,python3-webencodings
+1284,WebSocket client library - Python 3.x,,python3-websocket
+1285,WebSockets support for any application/server - Python 3,,python3-websockify
+1286,collection of utilities for WSGI applications (Python 3.x),,python3-werkzeug
+1287,"decorators, wrappers and monkey patching. - Python 3.x",,python3-wrapt
+1288,WebSocket library (Python 3),,python3-ws4py
+1289,Python 3 library to access freedesktop.org standards,,python3-xdg
+1290,YAML parser and emitter for Python3,,python3-yaml
+1291,yet another URL library for Python,,python3-yarl
+1292,Pure Python implementation of multicast DNS service discovery (Python3),,python3-zeroconf
+1293,Zettabyte File System (ZFS) Replication Tool written in Python,,python3-zettarepl
+1294,pathlib-compatible Zipfile object wrapper - Python 3.x,,python3-zipp
+1295,Zope Component Architecture,,python3-zope.component
+1296,Very basic event publishing system,,python3-zope.event
+1297,Hookable object support,,python3-zope.hookable
+1298,Interfaces for Python3,,python3-zope.interface
+1299,Interactive high-level object-oriented language (version 3.9),,python3.9
+1300,Minimal subset of the Python language (version 3.9),,python3.9-minimal
+1301,Guest-side qemu-system agent,,qemu-guest-agent
+1302,QEMU full system emulation binaries (common files),,qemu-system-common
+1303,QEMU full system emulation (data files),,qemu-system-data
+1304,QEMU full system emulation binaries (user interface and audio support),,qemu-system-gui:amd64
+1305,QEMU full system emulation binaries (x86),,qemu-system-x86
+1306,QEMU utilities,,qemu-utils
+1307,Rclone syncs your files to cloud storage,,rclone
+1308,"GNU readline and history libraries, common files",,readline-common
+1309,converts RPC program numbers into universal addresses,,rpcbind
+1310,data caching daemon for RRDtool,,rrdcached
+1311,time-series data storage and display system (programs),,rrdtool
+1312,"fast, versatile, remote (and local) file-copying tool",,rsync
+1313,reliable system and kernel logging daemon,,rsyslog
+1314,dh-runit implementation detail,,runit-helper
+1315,Generic SCSI target framework,,scst
+1316,SCST admininstration tool,,scstadmin
+1317,Output and modify SCSI device parameters,,sdparm
+1318,Legacy BIOS implementation,,seabios
+1319,GNU stream editor for filtering/transforming text,,sed
+1320,The Drive Trust Alliance Self Encrypting Drive Utility,,sedutil
+1321,Utilities for sensible alternative selection,,sensible-utils
+1322,controls configuration of serial ports,,setserial
+1323,utilities for devices using the SCSI command set,,sg3-utils
+1324,SGML infrastructure and SGML catalog file support,,sgml-base
+1325,FreeDesktop.org shared MIME database and spec,,shared-mime-info
+1326,boot loader to chain-load signed boot loaders (signed by Debian),,shim-helpers-amd64-signed
+1327,Secure Boot chain-loading bootloader (common helper scripts),,shim-signed-common
+1328,Secure Boot chain-loading bootloader (Microsoft-signed binary),,shim-signed:amd64
+1329,boot loader to chain-load signed boot loaders under Secure Boot,,shim-unsigned
+1330,User-mode networking for unprivileged network namespaces,,slirp4netns
+1331,control and monitor storage systems using S.M.A.R.T.,,smartmontools
+1332,extract MIB from text files like RFC,,smistrip
+1333,install and manage Management Information Base (MIB) files,,snmp-mibs-downloader
+1334,SNMP (Simple Network Management Protocol) agents,,snmpd
+1335,Network Time Protocol - sntp client,,sntp
+1336,documentation generator for Python projects - common data,,sphinx-common
+1337,Spice Web client which runs entirely within a modern browser,,spice-html5
+1338,Command line interface for SQLite 3,,sqlite3
+1339,Tool to create and append to squashfs filesystems,,squashfs-tools
+1340,simple debconf wrapper for OpenSSL,,ssl-cert
+1341,System call tracer,,strace
+1342,Provide limited super user privileges to specific users,,sudo
+1343,Swagger Debian package,,swagger-ui-dist
+1344,Enhanced system logging daemon (metapackage),,syslog-ng
+1345,Enhanced system logging daemon (core),,syslog-ng-core
+1346,Enhanced system logging daemon (add-contextual-data plugin),,syslog-ng-mod-add-contextual-data
+1347,Enhanced system logging daemon (AMQP plugin),,syslog-ng-mod-amqp
+1348,Enhanced system logging daemon (example plugins),,syslog-ng-mod-examples
+1349,Enhanced system logging daemon (extra plugins),,syslog-ng-mod-extra
+1350,Enhanced system logging daemon (GeoIP2 plugin),,syslog-ng-mod-geoip2
+1351,Enhanced system logging daemon (getent plugin),,syslog-ng-mod-getent
+1352,Enhanced system logging daemon (graphite plugin),,syslog-ng-mod-graphite
+1353,Enhanced system logging daemon (HTTP destination),,syslog-ng-mod-http
+1354,Enhanced system logging daemon (map-value-pairs plugin),,syslog-ng-mod-map-value-pairs
+1355,Enhanced system logging daemon (MongoDB plugin),,syslog-ng-mod-mongodb
+1356,Enhanced system logging daemon (Python plugin),,syslog-ng-mod-python
+1357,"Enhanced system logging daemon (Kafka destination, based on librdkafka)",,syslog-ng-mod-rdkafka
+1358,Enhanced system logging daemon (Redis plugin),,syslog-ng-mod-redis
+1359,Enhanced system logging daemon (Riemann destination),,syslog-ng-mod-riemann
+1360,Enhanced system logging daemon (secure logging plugin),,syslog-ng-mod-slog
+1361,Enhanced system logging daemon (SMTP plugin),,syslog-ng-mod-smtp
+1362,Enhanced system logging daemon (SNMP plugin),,syslog-ng-mod-snmp
+1363,Enhanced system logging daemon (SQL plugin),,syslog-ng-mod-sql
+1364,Enhanced system logging daemon (stardate plugin),,syslog-ng-mod-stardate
+1365,Enhanced system logging daemon (STOMP plugin),,syslog-ng-mod-stomp
+1366,Enhanced system logging daemon (xml parser plugin),,syslog-ng-mod-xml-parser
+1367,system performance tools for Linux,,sysstat
+1368,system and service manager,,systemd
+1369,systemd container/nspawn tools,,systemd-container
+1370,tools for storing and retrieving coredumps,,systemd-coredump
+1371,system and service manager - SysV links,,systemd-sysv
+1372,System-V-like utilities,,sysvinit-utils
+1373,Collection of simple Type 1 font manipulation programs,,t1utils
+1374,GNU version of the tar archiving utility,,tar
+1375,tool for selecting tasks for installation on Debian systems,,tasksel
+1376,official tasks used for installation of Debian systems,,tasksel-data
+1377,command-line network traffic analyzer,,tcpdump
+1378,HPA&apos;s tftp server,,tftpd-hpa
+1379,Tools for handling thinly provisioned device-mapper meta-data,,thin-provisioning-tools
+1380,throttle - bandwidth limiting pipe,,throttle
+1381,terminal multiplexer,,tmux
+1382,Traces the route taken by packets over an IPv4/IPv6 network,,traceroute
+1383,Main package for (TritonPlatform),,(TritonPlatform)
+1384,(TritonPlatform) binaries,,(TritonPlatform)-binaries
+1385,Extra files for (TritonPlatform),,(TritonPlatform)-files
+1386,"SMB/CIFS file, print, and login server for Unix",,(TritonPlatform)-samba
+1387,(TritonPlatform) Angular UI,,(TritonPlatform)-webui
+1388,time zone and daylight-saving time data,,tzdata
+1389,Update Configuration File(s): preserve user changes to config files,,ucf
+1390,/dev/ and hotplug management daemon,,udev
+1391,De-archiver for .zip files,,unzip
+1392,utility for switching the GLX implementation,,update-glx
+1393,USB ID Repository,,usb.ids
+1394,Convert the system to the merged /usr directories scheme,,usrmerge
+1395,miscellaneous system utilities,,util-linux
+1396,runtime components for the Universally Unique ID library,,uuid-runtime
+1397,Vi IMproved - Common files,,vim-common
+1398,Vi IMproved - enhanced vi editor - compact version,,vim-tiny
+1399,Windows Azure Linux Agent,,waagent
+1400,Compares two files word by word,,wdiff
+1401,WebSockets support for any application/server,,websockify
+1402,retrieves files from the web,,wget
+1403,Displays user-friendly dialog boxes from shell scripts,,whiptail
+1404,"fast, modern, secure kernel VPN tunnel (metapackage)",,wireguard
+1405,"fast, modern, secure kernel VPN tunnel (DKMS version)",,wireguard-dkms
+1406,"fast, modern, secure kernel VPN tunnel (userland utilities)",,wireguard-tools
+1407,X Window System (X.Org) infrastructure,,x11-common
+1408,X authentication utility,,xauth
+1409,A diff utility which works with binary files,,xdelta
+1410,Diff utility which works with binary files,,xdelta3
+1411,tool to manage well known user directories,,xdg-user-dirs
+1412,standard fonts for X,,xfonts-base
+1413,X Window System font utility programs,,xfonts-utils
+1414,Utilities for managing the XFS filesystem,,xfsprogs
+1415,X Keyboard Extension (XKB) configuration data,,xkb-data
+1416,XML infrastructure and XML catalog file support,,xml-core
+1417,Xorg X server - core server,,xserver-xorg-core
+1418,NVIDIA binary Xorg driver,,xserver-xorg-video-nvidia
+1419,"like &quot;tail -f&quot;, but works on truncated files, directories, more",,xtail
+1420,tool to make (or reverse) a hex dump,,xxd
+1421,XZ-format compression utilities,,xz-utils
+1422,XZ-format compression utilities - tiny decompressors,,xzdec
+1423,zectl is a ZFS boot environment manager for Linux.,,zectl
+1424,"zero free blocks from ext2, ext3 and ext4 file-systems",,zerofree
+1425,ZFS Commands to control the kernel modules and libraries,,zfs
+1426,ZFS Initramfs module,,zfs-initramfs
+1427,ZFS Test infrastructure,,zfs-test
+1428,compression library - runtime,,zlib1g:amd64
+1429,shell with lots of features,,zsh
+1430,architecture independent files for Zsh,,zsh-common
